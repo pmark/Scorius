@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* ScoriusAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* ScoriusAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765070DF74369002DB57D /* CoreGraphics.framework */; };
+		28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD73870D9D96C1002E5188 /* MainWindow.xib */; };
+		7EA9DFBB10EACFA600B8133A /* scorius.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 7EA9DFB710EACFA600B8133A /* scorius.sqlite */; };
+		7EA9DFBC10EACFA600B8133A /* data.sql in Resources */ = {isa = PBXBuildFile; fileRef = 7EA9DFB810EACFA600B8133A /* data.sql */; };
+		7EA9DFBD10EACFA600B8133A /* scorius.mysql.sql in Resources */ = {isa = PBXBuildFile; fileRef = 7EA9DFB910EACFA600B8133A /* scorius.mysql.sql */; };
+		7EA9DFBE10EACFA600B8133A /* scorius.sqlite.sql in Resources */ = {isa = PBXBuildFile; fileRef = 7EA9DFBA10EACFA600B8133A /* scorius.sqlite.sql */; };
+		7EA9DFC310EAD08000B8133A /* PlayersView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EA9DFC210EAD08000B8133A /* PlayersView.xib */; };
+		7EA9DFC510EAD08D00B8133A /* StatsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EA9DFC410EAD08D00B8133A /* StatsView.xib */; };
+		7EA9DFC710EAD09C00B8133A /* CoursesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EA9DFC610EAD09C00B8133A /* CoursesView.xib */; };
+		7EA9DFF010EAD34200B8133A /* GamesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA9DFEF10EAD34200B8133A /* GamesViewController.m */; };
+		7EC915511112645200B3E661 /* TabularViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC915501112645200B3E661 /* TabularViewController.m */; };
+		7EC915531112649400B3E661 /* TabularViewer.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EC915521112649400B3E661 /* TabularViewer.xib */; };
+		7EC915F711127E1900B3E661 /* LeftTableDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC915F611127E1900B3E661 /* LeftTableDataSource.m */; };
+		7EC9165B111282F900B3E661 /* TwoDArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC9165A111282F900B3E661 /* TwoDArray.m */; };
+		7EE9EB5811013E390058F742 /* GameMainTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE9EB5711013E390058F742 /* GameMainTableView.m */; };
+		7EE9ECBF110176DD0058F742 /* GamesNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE9ECBE110176DD0058F742 /* GamesNavigationController.m */; };
+		7EE9ED2011017DB00058F742 /* DatabaseUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE9ED1F11017DB00058F742 /* DatabaseUtil.m */; };
+		7EE9ED6E110186220058F742 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EE9ED6D110186220058F742 /* libsqlite3.0.dylib */; };
+		7EE9EDB411018C910058F742 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE9EDB311018C910058F742 /* Game.m */; };
+		7EE9EE52110283370058F742 /* Course.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE9EE51110283370058F742 /* Course.m */; };
+		7EE9EE551102835F0058F742 /* Hole.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE9EE541102835F0058F742 /* Hole.m */; };
+		7EE9EE58110283BA0058F742 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE9EE57110283BA0058F742 /* User.m */; };
+		7EE9EE611102857A0058F742 /* Score.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE9EE601102857A0058F742 /* Score.m */; };
+		7EE9EEE711028A800058F742 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE9EEE611028A800058F742 /* GameViewController.m */; };
+		7EE9EEE911028BBF0058F742 /* GameView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EE9EEE811028BBF0058F742 /* GameView.xib */; };
+		7EE9EF0C11028D800058F742 /* GameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE9EF0B11028D800058F742 /* GameView.m */; };
+		7EFC0FBB11153CD700F26C09 /* TwoDTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFC0FBA11153CD700F26C09 /* TwoDTableViewController.m */; };
+		7EFC101311154ED700F26C09 /* RightTableDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFC101211154ED700F26C09 /* RightTableDataSource.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* ScoriusAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoriusAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* ScoriusAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoriusAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Scorius.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scorius.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765070DF74369002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28A0AB4B0D9B1048005BE974 /* Scorius_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scorius_Prefix.pch; sourceTree = "<group>"; };
+		28AD73870D9D96C1002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7EA9DFB710EACFA600B8133A /* scorius.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = scorius.sqlite; sourceTree = "<group>"; };
+		7EA9DFB810EACFA600B8133A /* data.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data.sql; sourceTree = "<group>"; };
+		7EA9DFB910EACFA600B8133A /* scorius.mysql.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = scorius.mysql.sql; sourceTree = "<group>"; };
+		7EA9DFBA10EACFA600B8133A /* scorius.sqlite.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = scorius.sqlite.sql; sourceTree = "<group>"; };
+		7EA9DFC210EAD08000B8133A /* PlayersView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlayersView.xib; sourceTree = "<group>"; };
+		7EA9DFC410EAD08D00B8133A /* StatsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StatsView.xib; sourceTree = "<group>"; };
+		7EA9DFC610EAD09C00B8133A /* CoursesView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CoursesView.xib; sourceTree = "<group>"; };
+		7EA9DFEE10EAD34200B8133A /* GamesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GamesViewController.h; path = Classes/GamesViewController.h; sourceTree = "<group>"; };
+		7EA9DFEF10EAD34200B8133A /* GamesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GamesViewController.m; path = Classes/GamesViewController.m; sourceTree = "<group>"; };
+		7EC9154F1112645200B3E661 /* TabularViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabularViewController.h; sourceTree = "<group>"; };
+		7EC915501112645200B3E661 /* TabularViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabularViewController.m; sourceTree = "<group>"; };
+		7EC915521112649400B3E661 /* TabularViewer.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabularViewer.xib; sourceTree = "<group>"; };
+		7EC915F511127E1900B3E661 /* LeftTableDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftTableDataSource.h; sourceTree = "<group>"; };
+		7EC915F611127E1900B3E661 /* LeftTableDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftTableDataSource.m; sourceTree = "<group>"; };
+		7EC91659111282F900B3E661 /* TwoDArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoDArray.h; sourceTree = "<group>"; };
+		7EC9165A111282F900B3E661 /* TwoDArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoDArray.m; sourceTree = "<group>"; };
+		7EE9EB5611013E390058F742 /* GameMainTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameMainTableView.h; sourceTree = "<group>"; };
+		7EE9EB5711013E390058F742 /* GameMainTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameMainTableView.m; sourceTree = "<group>"; };
+		7EE9ECBD110176DD0058F742 /* GamesNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamesNavigationController.h; sourceTree = "<group>"; };
+		7EE9ECBE110176DD0058F742 /* GamesNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GamesNavigationController.m; sourceTree = "<group>"; };
+		7EE9ED1E11017DB00058F742 /* DatabaseUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseUtil.h; sourceTree = "<group>"; };
+		7EE9ED1F11017DB00058F742 /* DatabaseUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseUtil.m; sourceTree = "<group>"; };
+		7EE9ED4211017E890058F742 /* ScoriusConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoriusConstants.h; sourceTree = "<group>"; };
+		7EE9ED6D110186220058F742 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		7EE9EDB211018C910058F742 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		7EE9EDB311018C910058F742 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
+		7EE9EE50110283370058F742 /* Course.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Course.h; sourceTree = "<group>"; };
+		7EE9EE51110283370058F742 /* Course.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Course.m; sourceTree = "<group>"; };
+		7EE9EE531102835F0058F742 /* Hole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hole.h; sourceTree = "<group>"; };
+		7EE9EE541102835F0058F742 /* Hole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hole.m; sourceTree = "<group>"; };
+		7EE9EE56110283BA0058F742 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		7EE9EE57110283BA0058F742 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		7EE9EE5F1102857A0058F742 /* Score.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Score.h; sourceTree = "<group>"; };
+		7EE9EE601102857A0058F742 /* Score.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Score.m; sourceTree = "<group>"; };
+		7EE9EEE511028A800058F742 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		7EE9EEE611028A800058F742 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		7EE9EEE811028BBF0058F742 /* GameView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GameView.xib; sourceTree = "<group>"; };
+		7EE9EF0A11028D800058F742 /* GameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameView.h; sourceTree = "<group>"; };
+		7EE9EF0B11028D800058F742 /* GameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameView.m; sourceTree = "<group>"; };
+		7EEC8290111690F9008734BE /* TabularViewConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabularViewConstants.h; sourceTree = "<group>"; };
+		7EFC0FB911153CD700F26C09 /* TwoDTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoDTableViewController.h; sourceTree = "<group>"; };
+		7EFC0FBA11153CD700F26C09 /* TwoDTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoDTableViewController.m; sourceTree = "<group>"; };
+		7EFC101111154ED700F26C09 /* RightTableDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightTableDataSource.h; sourceTree = "<group>"; };
+		7EFC101211154ED700F26C09 /* RightTableDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightTableDataSource.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Scorius-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Scorius-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */,
+				7EE9ED6E110186220058F742 /* libsqlite3.0.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* ScoriusAppDelegate.h */,
+				1D3623250D0F684500981E51 /* ScoriusAppDelegate.m */,
+			);
+			name = Delegates;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Scorius.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Scorius */ = {
+			isa = PBXGroup;
+			children = (
+				7EC9154E1112643700B3E661 /* TabularViewer */,
+				7EE9EDB111018C840058F742 /* Data Objects */,
+				7EE9ED1D11017D9C0058F742 /* Util */,
+				7EE9EB5511013E200058F742 /* Views */,
+				7EA9E01110EAD5AA00B8133A /* View Controllers */,
+				080E96DDFE201D6D7F000001 /* Delegates */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				7EA9DFB610EACF8500B8133A /* Database */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = Scorius;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AB4B0D9B1048005BE974 /* Scorius_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7EA9DFC610EAD09C00B8133A /* CoursesView.xib */,
+				7EA9DFC410EAD08D00B8133A /* StatsView.xib */,
+				7EA9DFC210EAD08000B8133A /* PlayersView.xib */,
+				28AD73870D9D96C1002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Scorius-Info.plist */,
+				7EE9EEE811028BBF0058F742 /* GameView.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7EE9ED6D110186220058F742 /* libsqlite3.0.dylib */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765070DF74369002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7EA9DFB610EACF8500B8133A /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				7EA9DFB710EACFA600B8133A /* scorius.sqlite */,
+				7EA9DFB810EACFA600B8133A /* data.sql */,
+				7EA9DFB910EACFA600B8133A /* scorius.mysql.sql */,
+				7EA9DFBA10EACFA600B8133A /* scorius.sqlite.sql */,
+			);
+			name = Database;
+			sourceTree = "<group>";
+		};
+		7EA9E01110EAD5AA00B8133A /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7EA9DFEE10EAD34200B8133A /* GamesViewController.h */,
+				7EA9DFEF10EAD34200B8133A /* GamesViewController.m */,
+				7EE9ECBD110176DD0058F742 /* GamesNavigationController.h */,
+				7EE9ECBE110176DD0058F742 /* GamesNavigationController.m */,
+				7EE9EEE511028A800058F742 /* GameViewController.h */,
+				7EE9EEE611028A800058F742 /* GameViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		7EC9154E1112643700B3E661 /* TabularViewer */ = {
+			isa = PBXGroup;
+			children = (
+				7EC91555111265D500B3E661 /* Nibs */,
+				7EC9154F1112645200B3E661 /* TabularViewController.h */,
+				7EC915501112645200B3E661 /* TabularViewController.m */,
+				7EC915F511127E1900B3E661 /* LeftTableDataSource.h */,
+				7EC915F611127E1900B3E661 /* LeftTableDataSource.m */,
+				7EFC101111154ED700F26C09 /* RightTableDataSource.h */,
+				7EFC101211154ED700F26C09 /* RightTableDataSource.m */,
+				7EC91659111282F900B3E661 /* TwoDArray.h */,
+				7EC9165A111282F900B3E661 /* TwoDArray.m */,
+				7EFC0FB911153CD700F26C09 /* TwoDTableViewController.h */,
+				7EFC0FBA11153CD700F26C09 /* TwoDTableViewController.m */,
+				7EEC8290111690F9008734BE /* TabularViewConstants.h */,
+			);
+			name = TabularViewer;
+			sourceTree = "<group>";
+		};
+		7EC91555111265D500B3E661 /* Nibs */ = {
+			isa = PBXGroup;
+			children = (
+				7EC915521112649400B3E661 /* TabularViewer.xib */,
+			);
+			name = Nibs;
+			sourceTree = "<group>";
+		};
+		7EE9EB5511013E200058F742 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7EE9EB5611013E390058F742 /* GameMainTableView.h */,
+				7EE9EB5711013E390058F742 /* GameMainTableView.m */,
+				7EE9EF0A11028D800058F742 /* GameView.h */,
+				7EE9EF0B11028D800058F742 /* GameView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		7EE9ED1D11017D9C0058F742 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				7EE9ED1E11017DB00058F742 /* DatabaseUtil.h */,
+				7EE9ED1F11017DB00058F742 /* DatabaseUtil.m */,
+				7EE9ED4211017E890058F742 /* ScoriusConstants.h */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		7EE9EDB111018C840058F742 /* Data Objects */ = {
+			isa = PBXGroup;
+			children = (
+				7EE9EDB211018C910058F742 /* Game.h */,
+				7EE9EDB311018C910058F742 /* Game.m */,
+				7EE9EE50110283370058F742 /* Course.h */,
+				7EE9EE51110283370058F742 /* Course.m */,
+				7EE9EE531102835F0058F742 /* Hole.h */,
+				7EE9EE541102835F0058F742 /* Hole.m */,
+				7EE9EE56110283BA0058F742 /* User.h */,
+				7EE9EE57110283BA0058F742 /* User.m */,
+				7EE9EE5F1102857A0058F742 /* Score.h */,
+				7EE9EE601102857A0058F742 /* Score.m */,
+			);
+			name = "Data Objects";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Scorius */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Scorius" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Scorius;
+			productName = Scorius;
+			productReference = 1D6058910D05DD3D006BFB54 /* Scorius.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Scorius" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Scorius */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Scorius */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */,
+				7EA9DFBB10EACFA600B8133A /* scorius.sqlite in Resources */,
+				7EA9DFBC10EACFA600B8133A /* data.sql in Resources */,
+				7EA9DFBD10EACFA600B8133A /* scorius.mysql.sql in Resources */,
+				7EA9DFBE10EACFA600B8133A /* scorius.sqlite.sql in Resources */,
+				7EA9DFC310EAD08000B8133A /* PlayersView.xib in Resources */,
+				7EA9DFC510EAD08D00B8133A /* StatsView.xib in Resources */,
+				7EA9DFC710EAD09C00B8133A /* CoursesView.xib in Resources */,
+				7EE9EEE911028BBF0058F742 /* GameView.xib in Resources */,
+				7EC915531112649400B3E661 /* TabularViewer.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* ScoriusAppDelegate.m in Sources */,
+				7EA9DFF010EAD34200B8133A /* GamesViewController.m in Sources */,
+				7EE9EB5811013E390058F742 /* GameMainTableView.m in Sources */,
+				7EE9ECBF110176DD0058F742 /* GamesNavigationController.m in Sources */,
+				7EE9ED2011017DB00058F742 /* DatabaseUtil.m in Sources */,
+				7EE9EDB411018C910058F742 /* Game.m in Sources */,
+				7EE9EE52110283370058F742 /* Course.m in Sources */,
+				7EE9EE551102835F0058F742 /* Hole.m in Sources */,
+				7EE9EE58110283BA0058F742 /* User.m in Sources */,
+				7EE9EE611102857A0058F742 /* Score.m in Sources */,
+				7EE9EEE711028A800058F742 /* GameViewController.m in Sources */,
+				7EE9EF0C11028D800058F742 /* GameView.m in Sources */,
+				7EC915511112645200B3E661 /* TabularViewController.m in Sources */,
+				7EC915F711127E1900B3E661 /* LeftTableDataSource.m in Sources */,
+				7EC9165B111282F900B3E661 /* TwoDArray.m in Sources */,
+				7EFC0FBB11153CD700F26C09 /* TwoDTableViewController.m in Sources */,
+				7EFC101311154ED700F26C09 /* RightTableDataSource.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Scorius_Prefix.pch;
+				INFOPLIST_FILE = "Scorius-Info.plist";
+				PRODUCT_NAME = Scorius;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Scorius_Prefix.pch;
+				INFOPLIST_FILE = "Scorius-Info.plist";
+				PRODUCT_NAME = Scorius;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.1.2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.1.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Scorius" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Scorius" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

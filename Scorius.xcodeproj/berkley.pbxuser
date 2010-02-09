@@ -1,0 +1,981 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* ScoriusAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1082, 530}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 461}";
+		};
+	};
+	1D3623250D0F684500981E51 /* ScoriusAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1082, 530}}";
+			sepNavSelRange = "{444, 0}";
+			sepNavVisRange = "{0, 646}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* Scorius */ = {
+		activeExec = 0;
+		executables = (
+			7EA9DFA810EACF3800B8133A /* Scorius */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 7EA9DFA810EACF3800B8133A /* Scorius */;
+		activeSDKPreference = iphonesimulator3.1.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* Scorius */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* Scorius */,
+		);
+		breakpoints = (
+			7EA9E02910EBE0A600B8133A /* GamesViewController.m:20 */,
+			7EE9EBC51101448C0058F742 /* GamesViewController.m:78 */,
+			7EE9EBCE110144960058F742 /* GamesViewController.m:79 */,
+			7EE9EC6C110173480058F742 /* GamesViewController.m:40 */,
+			7EE9EC74110173650058F742 /* GamesViewController.m:60 */,
+			7EE9ECE8110178DA0058F742 /* GamesNavigationController.m:15 */,
+			7EE9EDC811018E980058F742 /* GamesViewController.m:29 */,
+			7EE9EDE611018EBF0058F742 /* DatabaseUtil.m:55 */,
+			7EE9EDF211018ED00058F742 /* DatabaseUtil.m:45 */,
+			7EE9EE0D1101905E0058F742 /* DatabaseUtil.m:56 */,
+			7EE9EE25110190EE0058F742 /* DatabaseUtil.m:66 */,
+			7EE9EF731102966B0058F742 /* GamesViewController.m:72 */,
+			7EE9EF7D110296830058F742 /* GamesViewController.m:72 */,
+			7EE9EFF511029D640058F742 /* DatabaseUtil.m:86 */,
+			7EC9160E11127F6900B3E661 /* LeftTableDataSource.m:21 */,
+			7EC916271112804E00B3E661 /* TabularViewController.m:34 */,
+			7EC916331112809B00B3E661 /* LeftTableDataSource.m:36 */,
+			7EEC822211168C11008734BE /* TwoDTableViewController.m:23 */,
+			7EEC823D11168CFA008734BE /* TwoDTableViewController.m:37 */,
+			7EEC823F11168D00008734BE /* TwoDTableViewController.m:42 */,
+			7EEC824711168D1C008734BE /* TwoDTableViewController.m:41 */,
+			7EEC826711168E34008734BE /* TabularViewController.m:64 */,
+			7EEC83E11116A062008734BE /* TwoDTableViewController.m:62 */,
+			7EEC83E91116A122008734BE /* LeftTableDataSource.m:54 */,
+			7EEC83F41116A146008734BE /* LeftTableDataSource.m:61 */,
+			7EEC83FC1116A182008734BE /* TwoDTableViewController.m:65 */,
+		);
+		codeSenseManager = 7EA9DFB410EACF3E00B8133A /* Code sense */;
+		executables = (
+			7EA9DFA810EACF3800B8133A /* Scorius */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					904,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					864,
+					60,
+					20,
+					48.16259765625,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 287095480;
+			PBXWorkspaceStateSaveDate = 287095480;
+		};
+		perUserProjectItems = {
+			7EB0F88B111CD670001006F2 /* PBXTextBookmark */ = 7EB0F88B111CD670001006F2 /* PBXTextBookmark */;
+			7EB0F8D3111CD903001006F2 /* PBXTextBookmark */ = 7EB0F8D3111CD903001006F2 /* PBXTextBookmark */;
+			7EB0F8DC111CD94A001006F2 /* PBXTextBookmark */ = 7EB0F8DC111CD94A001006F2 /* PBXTextBookmark */;
+			7EB0F8F4111CE694001006F2 /* PBXTextBookmark */ = 7EB0F8F4111CE694001006F2 /* PBXTextBookmark */;
+			7EB0F8F5111CE694001006F2 /* PBXTextBookmark */ = 7EB0F8F5111CE694001006F2 /* PBXTextBookmark */;
+			7EB0F8F6111CE694001006F2 /* PBXTextBookmark */ = 7EB0F8F6111CE694001006F2 /* PBXTextBookmark */;
+			7EB0F8F7111CE694001006F2 /* PBXTextBookmark */ = 7EB0F8F7111CE694001006F2 /* PBXTextBookmark */;
+			7EB0F904111CE716001006F2 /* PBXTextBookmark */ = 7EB0F904111CE716001006F2 /* PBXTextBookmark */;
+			7EB0F908111D35CD001006F2 /* PBXTextBookmark */ = 7EB0F908111D35CD001006F2 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 7EA9DFB310EACF3E00B8133A /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	7EA9DFA810EACF3800B8133A /* Scorius */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Scorius;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	7EA9DFB310EACF3E00B8133A /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	7EA9DFB410EACF3E00B8133A /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	7EA9DFB810EACFA600B8133A /* data.sql */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1539, 910}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 570}";
+		};
+	};
+	7EA9DFEE10EAD34200B8133A /* GamesViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1082, 495}}";
+			sepNavSelRange = "{483, 0}";
+			sepNavVisRange = "{0, 489}";
+		};
+	};
+	7EA9DFEF10EAD34200B8133A /* GamesViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1379, 1079}}";
+			sepNavSelRange = "{2111, 0}";
+			sepNavVisRange = "{1780, 455}";
+			sepNavWindowFrame = "{{15, 59}, {1209, 814}}";
+		};
+	};
+	7EA9E02910EBE0A600B8133A /* GamesViewController.m:20 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 7EA9DFEF10EAD34200B8133A /* GamesViewController.m */;
+		functionName = "-viewDidLoad";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 20;
+		location = Scorius;
+		modificationTime = 287106782.944485;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	7EB0F88B111CD670001006F2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7EE9EEE611028A800058F742 /* GameViewController.m */;
+		name = "GameViewController.m: 27";
+		rLen = 274;
+		rLoc = 580;
+		rType = 0;
+		vrLen = 1063;
+		vrLoc = 240;
+	};
+	7EB0F8D3111CD903001006F2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7EC915F611127E1900B3E661 /* LeftTableDataSource.m */;
+		name = "LeftTableDataSource.m: 47";
+		rLen = 56;
+		rLoc = 1199;
+		rType = 0;
+		vrLen = 1177;
+		vrLoc = 861;
+	};
+	7EB0F8DC111CD94A001006F2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7EC9154F1112645200B3E661 /* TabularViewController.h */;
+		name = "TabularViewController.h: 14";
+		rLen = 0;
+		rLoc = 335;
+		rType = 0;
+		vrLen = 1116;
+		vrLoc = 0;
+	};
+	7EB0F8F4111CE694001006F2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7EC915501112645200B3E661 /* TabularViewController.m */;
+		name = "TabularViewController.m: 63";
+		rLen = 0;
+		rLoc = 2038;
+		rType = 0;
+		vrLen = 1612;
+		vrLoc = 669;
+	};
+	7EB0F8F5111CE694001006F2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7EFC101211154ED700F26C09 /* RightTableDataSource.m */;
+		name = "RightTableDataSource.m: 33";
+		rLen = 160;
+		rLoc = 819;
+		rType = 0;
+		vrLen = 950;
+		vrLoc = 30;
+	};
+	7EB0F8F6111CE694001006F2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7EFC101111154ED700F26C09 /* RightTableDataSource.h */;
+		name = "RightTableDataSource.h: 12";
+		rLen = 19;
+		rLoc = 281;
+		rType = 0;
+		vrLen = 392;
+		vrLoc = 0;
+	};
+	7EB0F8F7111CE694001006F2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7EFC0FB911153CD700F26C09 /* TwoDTableViewController.h */;
+		name = "TwoDTableViewController.h: 27";
+		rLen = 0;
+		rLoc = 714;
+		rType = 0;
+		vrLen = 732;
+		vrLoc = 0;
+	};
+	7EB0F904111CE716001006F2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7EFC0FBA11153CD700F26C09 /* TwoDTableViewController.m */;
+		name = "TwoDTableViewController.m: 40";
+		rLen = 0;
+		rLoc = 1175;
+		rType = 0;
+		vrLen = 482;
+		vrLoc = 788;
+	};
+	7EB0F908111D35CD001006F2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7EFC0FBA11153CD700F26C09 /* TwoDTableViewController.m */;
+		name = "TwoDTableViewController.m: 40";
+		rLen = 0;
+		rLoc = 1175;
+		rType = 0;
+		vrLen = 1182;
+		vrLoc = 321;
+	};
+	7EC9154F1112645200B3E661 /* TabularViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1379, 468}}";
+			sepNavSelRange = "{335, 0}";
+			sepNavVisRange = "{0, 459}";
+		};
+	};
+	7EC915501112645200B3E661 /* TabularViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1082, 949}}";
+			sepNavSelRange = "{2038, 0}";
+			sepNavVisRange = "{669, 1612}";
+		};
+	};
+	7EC915F511127E1900B3E661 /* LeftTableDataSource.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1082, 509}}";
+			sepNavSelRange = "{746, 0}";
+			sepNavVisRange = "{0, 753}";
+		};
+	};
+	7EC915F611127E1900B3E661 /* LeftTableDataSource.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1097, 884}}";
+			sepNavSelRange = "{1199, 56}";
+			sepNavVisRange = "{861, 1177}";
+		};
+	};
+	7EC9160E11127F6900B3E661 /* LeftTableDataSource.m:21 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 7EC915F611127E1900B3E661 /* LeftTableDataSource.m */;
+		functionName = "-tableView:cellForRowAtIndexPath:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 21;
+		location = Scorius;
+		modificationTime = 287106782.94888;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	7EC916271112804E00B3E661 /* TabularViewController.m:34 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 7EC915501112645200B3E661 /* TabularViewController.m */;
+		functionName = "-viewDidLoad";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 34;
+		location = Scorius;
+		modificationTime = 287106782.94914;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	7EC916331112809B00B3E661 /* LeftTableDataSource.m:36 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 7EC915F611127E1900B3E661 /* LeftTableDataSource.m */;
+		functionName = "-tableView:numberOfRowsInSection:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 36;
+		location = Scorius;
+		modificationTime = 287106782.949406;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	7EC91659111282F900B3E661 /* TwoDArray.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1082, 490}}";
+			sepNavSelRange = "{593, 0}";
+			sepNavVisRange = "{0, 599}";
+		};
+	};
+	7EC9165A111282F900B3E661 /* TwoDArray.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1082, 1131}}";
+			sepNavSelRange = "{1618, 26}";
+			sepNavVisRange = "{597, 904}";
+		};
+	};
+	7EE9EB5611013E390058F742 /* GameMainTableView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1082, 525}}";
+			sepNavSelRange = "{217, 0}";
+			sepNavVisRange = "{0, 223}";
+		};
+	};
+	7EE9EB5711013E390058F742 /* GameMainTableView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1082, 520}}";
+			sepNavSelRange = "{199, 0}";
+			sepNavVisRange = "{0, 205}";
+		};
+	};
+	7EE9EBC51101448C0058F742 /* GamesViewController.m:78 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 7EA9DFEF10EAD34200B8133A /* GamesViewController.m */;
+		functionName = "-cellForRowAtIndexPath:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 78;
+		location = Scorius;
+		modificationTime = 287106782.945055;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	7EE9EBCE110144960058F742 /* GamesViewController.m:79 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 7EA9DFEF10EAD34200B8133A /* GamesViewController.m */;
+		functionName = "-numberOfRowsInSection:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 79;
+		modificationTime = 287106782.945332;
+		originalNumberOfMultipleMatches = 1;
+		state = 0;
+	};
+	7EE9EC6C110173480058F742 /* GamesViewController.m:40 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 7EA9DFEF10EAD34200B8133A /* GamesViewController.m */;
+		functionName = "-tableView:cellForRowAtIndexPath:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 40;
+		location = Scorius;
+		modificationTime = 287106782.945583;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	7EE9EC74110173650058F742 /* GamesViewController.m:60 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 7EA9DFEF10EAD34200B8133A /* GamesViewController.m */;
+		functionName = "-tableView:numberOfRowsInSection:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 60;
+		location = Scorius;
+		modificationTime = 287106782.945904;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	7EE9ECBD110176DD0058F742 /* GamesNavigationController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1082, 530}}";
+			sepNavSelRange = "{237, 0}";
+			sepNavVisRange = "{0, 281}";
+		};
+	};
+	7EE9ECBE110176DD0058F742 /* GamesNavigationController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1379, 273}}";
+			sepNavSelRange = "{177, 0}";
+			sepNavVisRange = "{47, 515}";
+		};
+	};
+	7EE9ECE8110178DA0058F742 /* GamesNavigationController.m:15 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 7EE9ECBE110176DD0058F742 /* GamesNavigationController.m */;
+		functionName = "-navigationController:didShowViewController:animated:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 15;
+		location = Scorius;
+		modificationTime = 287106782.946158;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	7EE9ED1E11017DB00058F742 /* DatabaseUtil.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1082, 525}}";
+			sepNavSelRange = "{457, 0}";
+			sepNavVisRange = "{0, 485}";
+		};
+	};
+	7EE9ED1F11017DB00058F742 /* DatabaseUtil.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1379, 1573}}";
+			sepNavSelRange = "{2570, 0}";
+			sepNavVisRange = "{2211, 532}";
+			sepNavWindowFrame = "{{38, 38}, {1209, 814}}";
+		};
+	};
+	7EE9ED4211017E890058F742 /* ScoriusConstants.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1082, 530}}";
+			sepNavSelRange = "{131, 0}";
+			sepNavVisRange = "{0, 240}";
+		};
+	};
+	7EE9EDB211018C910058F742 /* Game.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1082, 525}}";
+			sepNavSelRange = "{196, 0}";
+			sepNavVisRange = "{0, 616}";
+		};
+	};
+	7EE9EDB311018C910058F742 /* Game.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1082, 525}}";
+			sepNavSelRange = "{280, 14}";
+			sepNavVisRange = "{0, 320}";
+		};
+	};
+	7EE9EDC811018E980058F742 /* GamesViewController.m:29 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 7EA9DFEF10EAD34200B8133A /* GamesViewController.m */;
+		functionName = "-viewDidLoad";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 29;
+		location = Scorius;
+		modificationTime = 287106782.946908;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	7EE9EDE611018EBF0058F742 /* DatabaseUtil.m:55 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 7EE9ED1F11017DB00058F742 /* DatabaseUtil.m */;
+		functionName = "-getGames";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 55;
+		location = Scorius;
+		modificationTime = 287106782.947198;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	7EE9EDF211018ED00058F742 /* DatabaseUtil.m:45 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 7EE9ED1F11017DB00058F742 /* DatabaseUtil.m */;
+		functionName = "-getGames";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 45;
+		location = Scorius;
+		modificationTime = 287106782.947431;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	7EE9EE0D1101905E0058F742 /* DatabaseUtil.m:56 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 7EE9ED1F11017DB00058F742 /* DatabaseUtil.m */;
+		functionName = "-getGames";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 56;
+		location = Scorius;
+		modificationTime = 287106782.947704;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	7EE9EE25110190EE0058F742 /* DatabaseUtil.m:66 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 7EE9ED1F11017DB00058F742 /* DatabaseUtil.m */;
+		functionName = "-getGames";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 66;
+		location = Scorius;
+		modificationTime = 287106782.947955;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	7EE9EE50110283370058F742 /* Course.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1082, 553}}";
+			sepNavSelRange = "{396, 0}";
+			sepNavVisRange = "{0, 403}";
+		};
+	};
+	7EE9EE51110283370058F742 /* Course.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1082, 525}}";
+			sepNavSelRange = "{203, 0}";
+			sepNavVisRange = "{0, 210}";
+		};
+	};
+	7EE9EE531102835F0058F742 /* Hole.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1082, 553}}";
+			sepNavSelRange = "{453, 0}";
+			sepNavVisRange = "{0, 462}";
+		};
+	};
+	7EE9EE541102835F0058F742 /* Hole.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1082, 553}}";
+			sepNavSelRange = "{202, 0}";
+			sepNavVisRange = "{0, 209}";
+		};
+	};
+	7EE9EE56110283BA0058F742 /* User.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1082, 553}}";
+			sepNavSelRange = "{301, 0}";
+			sepNavVisRange = "{0, 602}";
+		};
+	};
+	7EE9EE57110283BA0058F742 /* User.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1082, 553}}";
+			sepNavSelRange = "{226, 0}";
+			sepNavVisRange = "{0, 234}";
+		};
+	};
+	7EE9EE5F1102857A0058F742 /* Score.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1082, 553}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 195}";
+		};
+	};
+	7EE9EE601102857A0058F742 /* Score.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1082, 525}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 168}";
+		};
+	};
+	7EE9EEE511028A800058F742 /* GameViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1082, 532}}";
+			sepNavSelRange = "{565, 0}";
+			sepNavVisRange = "{0, 572}";
+		};
+	};
+	7EE9EEE611028A800058F742 /* GameViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1082, 936}}";
+			sepNavSelRange = "{580, 274}";
+			sepNavVisRange = "{240, 1063}";
+		};
+	};
+	7EE9EF0A11028D800058F742 /* GameView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1082, 525}}";
+			sepNavSelRange = "{192, 0}";
+			sepNavVisRange = "{0, 198}";
+		};
+	};
+	7EE9EF0B11028D800058F742 /* GameView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1082, 525}}";
+			sepNavSelRange = "{171, 0}";
+			sepNavVisRange = "{0, 179}";
+		};
+	};
+	7EE9EF731102966B0058F742 /* GamesViewController.m:72 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 7EA9DFEF10EAD34200B8133A /* GamesViewController.m */;
+		functionName = "-tableView:didSelectRowAtIndexPath:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 72;
+		location = Scorius;
+		modificationTime = 287106782.948149;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	7EE9EF7D110296830058F742 /* GamesViewController.m:72 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 7EA9DFEF10EAD34200B8133A /* GamesViewController.m */;
+		functionName = "-tableView:didSelectRowAtIndexPath:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 72;
+		location = Scorius;
+		modificationTime = 287106782.948421;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	7EE9EFF511029D640058F742 /* DatabaseUtil.m:86 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 7EE9ED1F11017DB00058F742 /* DatabaseUtil.m */;
+		functionName = "-getCourseForId:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 86;
+		location = Scorius;
+		modificationTime = 287106782.948631;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	7EEC822211168C11008734BE /* TwoDTableViewController.m:23 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 7EFC0FBA11153CD700F26C09 /* TwoDTableViewController.m */;
+		functionName = "-initWithDataSource:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 23;
+		location = Scorius;
+		modificationTime = 287106782.94964;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	7EEC823D11168CFA008734BE /* TwoDTableViewController.m:37 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 7EFC0FBA11153CD700F26C09 /* TwoDTableViewController.m */;
+		functionName = "-initWithDataSource:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 37;
+		location = Scorius;
+		modificationTime = 287106782.95016;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	7EEC823F11168D00008734BE /* TwoDTableViewController.m:42 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 7EFC0FBA11153CD700F26C09 /* TwoDTableViewController.m */;
+		functionName = "-initWithDataSource:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 42;
+		location = Scorius;
+		modificationTime = 287106782.950554;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	7EEC824711168D1C008734BE /* TwoDTableViewController.m:41 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 7EFC0FBA11153CD700F26C09 /* TwoDTableViewController.m */;
+		functionName = "-initWithDataSource:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 41;
+		location = Scorius;
+		modificationTime = 287106782.951;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	7EEC826711168E34008734BE /* TabularViewController.m:64 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 7EC915501112645200B3E661 /* TabularViewController.m */;
+		functionName = "-viewDidLoad";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 64;
+		location = Scorius;
+		modificationTime = 287106782.951374;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	7EEC8290111690F9008734BE /* TabularViewConstants.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1379, 260}}";
+			sepNavSelRange = "{333, 0}";
+			sepNavVisRange = "{3, 331}";
+		};
+	};
+	7EEC83E11116A062008734BE /* TwoDTableViewController.m:62 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 7EFC0FBA11153CD700F26C09 /* TwoDTableViewController.m */;
+		functionName = "-scrollTo:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 62;
+		location = Scorius;
+		modificationTime = 287106782.951663;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	7EEC83E91116A122008734BE /* LeftTableDataSource.m:54 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 7EC915F611127E1900B3E661 /* LeftTableDataSource.m */;
+		functionName = "-scrollViewDidScroll:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 54;
+		location = Scorius;
+		modificationTime = 287106782.951979;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	7EEC83F41116A146008734BE /* LeftTableDataSource.m:61 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 7EC915F611127E1900B3E661 /* LeftTableDataSource.m */;
+		functionName = "-scrollViewDidScroll:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 61;
+		location = Scorius;
+		modificationTime = 287106782.952281;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	7EEC83FC1116A182008734BE /* TwoDTableViewController.m:65 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 7EFC0FBA11153CD700F26C09 /* TwoDTableViewController.m */;
+		functionName = "-scrollTo:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 65;
+		location = Scorius;
+		modificationTime = 287106782.952573;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	7EFC0FB911153CD700F26C09 /* TwoDTableViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1082, 472}}";
+			sepNavSelRange = "{714, 0}";
+			sepNavVisRange = "{0, 732}";
+		};
+	};
+	7EFC0FBA11153CD700F26C09 /* TwoDTableViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1379, 949}}";
+			sepNavSelRange = "{1175, 0}";
+			sepNavVisRange = "{788, 478}";
+		};
+	};
+	7EFC101111154ED700F26C09 /* RightTableDataSource.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1082, 472}}";
+			sepNavSelRange = "{281, 19}";
+			sepNavVisRange = "{0, 392}";
+		};
+	};
+	7EFC101211154ED700F26C09 /* RightTableDataSource.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1082, 559}}";
+			sepNavSelRange = "{819, 160}";
+			sepNavVisRange = "{30, 950}";
+		};
+	};
+	8D1107310486CEB800E47090 /* Scorius-Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{61, 17}, {1209, 814}}";
+		};
+	};
+}
