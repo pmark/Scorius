@@ -44,24 +44,10 @@
 	return cellHeight;
 }
 
-/*- (void)scrollViewDidScroll:(UIScrollView *)scrollView
+- (CGSize)getTableSize
 {
-	//NSLog(@"Scrolling");
-	NSArray *visiblePaths = [self.tableView indexPathsForVisibleRows];
-	NSIndexPath *ip = (NSIndexPath*)[visiblePaths objectAtIndex:0];
-	NSLog(@"row at top: %i",ip.row);
-	NSInteger row = ip.row;
-	if(self.currentTopRow != row)
-	{ //if the top row changes, scroll the other scroll view
-		//[self.rightTableViewController scrollTo:ip];		
-		CGRect bounds = scrollView.bounds;
-		CGFloat x = self.rightScrollView.bounds.origin.x;
-		CGFloat y = bounds.origin.y;
-		NSLog(@"scrolling rightScrollView to %f, %f",x,y);
-		[self.rightScrollView scrollRectToVisible:CGRectMake(x,y,self.rightScrollView.bounds.size.width,self.rightScrollView.bounds.size.height) animated:YES];
-	}
-	//[self.rightScrollView scrollRectToVisible:CGRectMake(499,499,1,1) animated:YES];
-	
-}*/
+	CGFloat length = [items count] * cellHeight;
+	return CGSizeMake(120, length);
+}
 
 @end

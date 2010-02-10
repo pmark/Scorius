@@ -8,6 +8,7 @@
 
 #import "TabularViewController.h"
 #import "LeftTableDataSource.h"
+#import "TabularViewConstants.h"
 
 @implementation TabularViewController
 
@@ -44,29 +45,35 @@
 	self.leftTableView.dataSource = self.leftTableViewDataSource;
 	self.leftTableViewDataSource.items = self.leftTableViewItems;
 	self.leftTableView.delegate = self.leftTableViewDataSource;
+	
 	self.leftTableViewDataSource.tableView = self.leftTableView;
 	self.leftTableViewDataSource.currentTopRow = 0;
 	self.leftTableViewDataSource.rightTableViewController = self.rightTableViewController;
 	self.leftTableViewDataSource.rightScrollView = self.rightScrollView;
+	CGSize leftTableViewSize = [self.leftTableViewDataSource getTableSize];
+	//set the size and position of the left table view 
+	self.leftTableView.frame = CGRectMake(0, -5, leftTableViewSize.width, leftTableViewSize.height);
 	
 	self.leftTableView.scrollEnabled = NO;
-	//CGSize mainScrollViewSize = CGSizeMake(1000, leftTableView.contentSize.width);
-	CGSize mainScrollViewSize = CGSizeMake(320, 1000);
+	CGSize mainScrollViewSize = CGSizeMake(320, leftTableViewSize.height + cellHeight);
 	self.mainScrollView.contentSize = mainScrollViewSize;
 	self.mainScrollView.directionalLockEnabled = YES;
 	self.mainScrollView.delegate = self;
 	
 	[self.rightScrollView addSubview:rightTableViewController.view];
-	//self.rightScrollView.delegate = self.rightTableViewController.rightTableDataSource;
 	self.rightScrollView.contentSize = self.rightTableViewController.contentSize;
 	self.rightScrollView.pagingEnabled = NO;
 	self.rightScrollView.bounces = YES;
-	NSLog(@"right scroll pane content width: %f  height: %f", self.rightScrollView.contentSize.width, self.rightScrollView.contentSize.height);
+	//self.rightScrollView.frame = CGRectMake(0, 0, 1000, 1000);
+	CGRect fr = self.rightScrollView.frame;
+	self.rightScrollView.frame = CGRectMake(fr.origin.x, fr.origin.y, 
+																					200, 
+																					[rightTableViewController.dataSource countRows] * cellHeight);
 }
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView
 {
-	NSLog(@"scrolling main scroll view");
+	//NSLog(@"scrolling main scroll view");
 }
 
 @end

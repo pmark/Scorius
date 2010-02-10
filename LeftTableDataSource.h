@@ -24,4 +24,6 @@
 @property (nonatomic, assign) NSInteger currentTopRow;
 @property (nonatomic, assign) UIScrollView *rightScrollView;
 
+- (CGSize)getTableSize;
+
 @end

@@ -35,9 +35,9 @@
 		}
 		self.rightTableDataSource.dataSource = self.dataSource;
 		
-		NSInteger width = [self.dataSource countRows] * rowWidth;
+		NSInteger width = [self.dataSource countColumns] * rowWidth;
 		//NSInteger height = cellHeight * [self.dataSource countColumns];
-		NSInteger height = 300;
+		NSInteger height = [self.dataSource countRows] * cellHeight;
 		self.contentSize = CGSizeMake(width, height);
 	}
 	return self;
@@ -51,7 +51,8 @@
 	for(int i=0; i<[self.tableViews count]; i++)
 	{
 		UITableView *tv = (UITableView*)[self.tableViews objectAtIndex:i];
-		tv.frame = CGRectMake(i * 50, -25, rowWidth, cellHeight * [self.dataSource countColumns]);
+		tv.frame = CGRectMake(i * cellHeight, -25, rowWidth, cellHeight * [self.dataSource countColumns]);
+		NSLog(@"right table view size: %f, %f", tv.frame.size.width, tv.frame.size.height);
 		[self.view addSubview:tv];
 	}
 }
