@@ -51,25 +51,10 @@
 	for(int i=0; i<[self.tableViews count]; i++)
 	{
 		UITableView *tv = (UITableView*)[self.tableViews objectAtIndex:i];
-		tv.frame = CGRectMake(i * cellHeight, -25, rowWidth, cellHeight * [self.dataSource countColumns]);
+		tv.frame = CGRectMake(i * cellHeight, -25, rowWidth, cellHeight * [self.dataSource countColumns] + 50);
 		NSLog(@"right table view size: %f, %f", tv.frame.size.width, tv.frame.size.height);
 		[self.view addSubview:tv];
 	}
-}
-
-/*
- * scroll all of the table views in tableViews to the given indexPath
- */
-- (void)scrollTo:(NSIndexPath*)indexPath
-{
-	/*
-	for(int i=0; i<[self.tableViews count]; i++)
-	{
-		NSLog(@"Scrolling right table view to %i", indexPath.row);
-		UITableView *tv = (UITableView*)[self.tableViews objectAtIndex:i];
-		[tv scrollToRowAtIndexPath:indexPath atScrollPosition:UITableViewScrollPositionMiddle animated:YES];
-	}*/
-	
 }
 
 @end

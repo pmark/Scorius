@@ -53,15 +53,17 @@
 	self.leftTableViewDataSource.rightScrollView = self.rightScrollView;
 	CGSize leftTableViewSize = [self.leftTableViewDataSource getTableSize];
 	//set the size and position of the left table view 
-	self.leftTableView.frame = CGRectMake(0, -5, leftTableViewSize.width, leftTableViewSize.height);
+	//self.leftTableView.frame = CGRectMake(0, 0, leftTableViewSize.width, leftTableViewSize.height + 50);
+	self.leftTableView.frame = CGRectMake(0, 0, 120, [leftTableViewDataSource.items count] * cellHeight + 50);
 	self.leftTableViewDataSource.header = self.leftTableHeader;
 	
 	self.leftTableView.scrollEnabled = NO;
 	//set size and position of main scroll view
-	CGSize mainScrollViewSize = CGSizeMake(320, leftTableViewSize.height + cellHeight);
-	self.mainScrollView.contentSize = mainScrollViewSize;
+	CGSize mainScrollViewContentSize = CGSizeMake(320, leftTableViewSize.height + cellHeight);
+	self.mainScrollView.contentSize = mainScrollViewContentSize;
 	self.mainScrollView.directionalLockEnabled = YES;
 	self.mainScrollView.delegate = self;
+  self.mainScrollView.frame = CGRectMake(0, 0, 320, 350);
 	
 	[self.rightScrollView addSubview:rightTableViewController.view];
 	//set the size of the right scrollable area
@@ -70,10 +72,12 @@
 	self.rightScrollView.bounces = YES;
 	self.rightTableViewController.rightTableDataSource.columnHeaders = self.rightTableViewHeaders;
 	//set the size and location of the right scroll view
-	CGRect fr = self.rightScrollView.frame;
-	self.rightScrollView.frame = CGRectMake(fr.origin.x, fr.origin.y, 
+	//CGRect fr = self.rightScrollView.frame;
+	self.rightScrollView.frame = CGRectMake(120, 0, 
 																					200, 
-																					[rightTableViewController.dataSource countRows] * cellHeight);
+																					[rightTableViewController.dataSource countRows] * cellHeight + 50);
+	
+	
 }
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView

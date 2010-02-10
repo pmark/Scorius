@@ -24,6 +24,5 @@
 @property (nonatomic, assign) CGSize contentSize;
 
 - (id)initWithDataSource:(TwoDArray*)ds;
-- (void)scrollTo:(NSIndexPath*)indexPath;
 
 @end

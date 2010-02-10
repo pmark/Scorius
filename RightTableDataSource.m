@@ -58,4 +58,10 @@
 	return 1;
 }
 
+- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
+{
+	//TODO: should not have to hack this with a +5....
+	return headerHeight + 5;
+}
+
 @end

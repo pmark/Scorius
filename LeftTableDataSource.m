@@ -19,11 +19,7 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
 	UITableViewCell *cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:nil];
-	//UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 100, 20)];
 	NSString *text = (NSString*)[items objectAtIndex:indexPath.row];
-	//label.text = text;
-	//[cell addSubview:label];
-	//[label sizeToFit];
 	cell.textLabel.text = text;
 	return cell;
 }
@@ -44,6 +40,9 @@
 	return cellHeight;
 }
 
+/*
+ * get the size of the table
+ */
 - (CGSize)getTableSize
 {
 	CGFloat length = [items count] * cellHeight;
@@ -64,6 +63,9 @@
 	return headers;
 }*/
 
+/*
+ * get the title for the table
+ */
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
 {
 	if(self.header != nil)
@@ -72,6 +74,14 @@
 	}
 	
 	return @"";
+}
+
+/*
+ * set the header height
+ */
+- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
+{
+	return headerHeight;
 }
 
 @end

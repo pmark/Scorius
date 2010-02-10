@@ -16,4 +16,5 @@
 #define rowWidth 50
 //the height of one cell (row) in the table
 #define cellHeight 50
-
+//height of the table header rows
+#define headerHeight 30

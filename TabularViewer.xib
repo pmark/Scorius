@@ -12,7 +12,7 @@
 		</object>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
-			<integer value="4"/>
+			<integer value="1"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -48,7 +48,7 @@
 							<object class="IBUITableView" id="109451649">
 								<reference key="NSNextResponder" ref="457725026"/>
 								<int key="NSvFlags">274</int>
-								<string key="NSFrame">{{0, -5}, {119, 307}}</string>
+								<string key="NSFrameSize">{119, 315}</string>
 								<reference key="NSSuperview" ref="457725026"/>
 								<object class="NSColor" key="IBUIBackgroundColor" id="923021197">
 									<int key="NSColorSpace">3</int>
@@ -68,7 +68,7 @@
 							<object class="IBUIScrollView" id="142422078">
 								<reference key="NSNextResponder" ref="457725026"/>
 								<int key="NSvFlags">268</int>
-								<string key="NSFrame">{{118, 0}, {202, 307}}</string>
+								<string key="NSFrame">{{119, 0}, {201, 315}}</string>
 								<reference key="NSSuperview" ref="457725026"/>
 								<object class="NSColor" key="IBUIBackgroundColor" id="655059851">
 									<int key="NSColorSpace">3</int>
@@ -82,7 +82,7 @@
 								<bool key="IBUIBouncesZoom">NO</bool>
 							</object>
 						</object>
-						<string key="NSFrameSize">{320, 367}</string>
+						<string key="NSFrame">{{0, 96}, {320, 315}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="IBUIBackgroundColor" ref="655059851"/>
 						<bool key="IBUIClipsSubviews">YES</bool>
@@ -92,13 +92,10 @@
 						<bool key="IBUIBouncesZoom">NO</bool>
 					</object>
 				</object>
-				<string key="NSFrameSize">{320, 367}</string>
+				<string key="NSFrameSize">{320, 411}</string>
 				<reference key="NSSuperview"/>
 				<reference key="IBUIBackgroundColor" ref="923021197"/>
 				<object class="IBUISimulatedStatusBarMetrics" key="IBUISimulatedStatusBarMetrics"/>
-				<object class="IBUISimulatedNavigationBarMetrics" key="IBUISimulatedTopBarMetrics">
-					<bool key="IBUIPrompted">NO</bool>
-				</object>
 				<object class="IBUISimulatedTabBarMetrics" key="IBUISimulatedBottomBarMetrics"/>
 			</object>
 		</object>
@@ -208,7 +205,7 @@
 					<bool key="EncodedWithXMLCoder">YES</bool>
 					<string>TabularViewController</string>
 					<string>UIResponder</string>
-					<string>{{443, 306}, {320, 480}}</string>
+					<string>{{487, 281}, {320, 480}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>

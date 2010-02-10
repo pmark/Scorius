@@ -352,13 +352,13 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>41</integer>
-									<integer>35</integer>
+									<integer>9</integer>
+									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 59}, {275, 760}}</string>
+							<string>{{0, 0}, {275, 760}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -393,7 +393,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>7EA9DFAD10EACF3E00B8133A</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>GameViewController.m</string>
+								<string>RightTableDataSource.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -401,25 +401,25 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>7EA9DFAE10EACF3E00B8133A</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>GameViewController.m</string>
+										<string>RightTableDataSource.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>7E0F2315112281EA001EA661</string>
+										<string>7E0F246911228D3A001EA661</string>
 										<key>history</key>
 										<array>
-											<string>7E0F227011223220001EA661</string>
 											<string>7E0F228F112236A1001EA661</string>
-											<string>7E0F2300112281BD001EA661</string>
 											<string>7E0F2301112281BD001EA661</string>
 											<string>7E0F2302112281BD001EA661</string>
-											<string>7E0F2303112281BD001EA661</string>
 											<string>7E0F2304112281BD001EA661</string>
-											<string>7E0F2305112281BD001EA661</string>
-											<string>7E0F2306112281BD001EA661</string>
-											<string>7E0F2307112281BD001EA661</string>
-											<string>7E0F2308112281BD001EA661</string>
-											<string>7E0F2314112281E7001EA661</string>
+											<string>7E0F23181122821A001EA661</string>
+											<string>7E0F23AE112285B2001EA661</string>
+											<string>7E0F23CB11228679001EA661</string>
+											<string>7E0F23F11122879E001EA661</string>
+											<string>7E0F244511228BC6001EA661</string>
+											<string>7E0F244F11228CCF001EA661</string>
+											<string>7E0F245011228CCF001EA661</string>
+											<string>7E0F246811228D29001EA661</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -718,7 +718,7 @@
 	<key>StatusbarIsVisible</key>
 	<true/>
 	<key>TimeStamp</key>
-	<real>287474154.28153002</real>
+	<real>287477050.57871902</real>
 	<key>ToolbarConfigUserDefaultsMinorVersion</key>
 	<string>2</string>
 	<key>ToolbarDisplayMode</key>
@@ -735,7 +735,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>7E0F2313112281D6001EA661</string>
+		<string>7E0F246711228CFF001EA661</string>
 		<string>7E0F21CE11221F8F001EA661</string>
 		<string>7E0F21C211221E56001EA661</string>
 		<string>/Users/berkley/project/iphone/Scorius/Scorius.xcodeproj</string>
