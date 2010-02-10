@@ -12,6 +12,9 @@
 @implementation RightTableDataSource
 @synthesize dataSource, columnHeaders;
 
+/*
+ * get the cell for the index
+ */
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
 	NSInteger col = tableView.tag;
@@ -53,15 +56,20 @@
 	}
 }
 
+/*
+ * number of sections
+ */
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
 	return 1;
 }
 
+/*
+ * height for the header row
+ */
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
 {
-	//TODO: should not have to hack this with a +5....
-	return headerHeight + 5;
+	return headerHeight;
 }
 
 @end

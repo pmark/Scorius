@@ -352,7 +352,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>9</integer>
+									<integer>5</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -393,7 +393,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>7EA9DFAD10EACF3E00B8133A</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>RightTableDataSource.m</string>
+								<string>TwoDTableViewController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -401,25 +401,26 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>7EA9DFAE10EACF3E00B8133A</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>RightTableDataSource.m</string>
+										<string>TwoDTableViewController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>7E0F246911228D3A001EA661</string>
+										<string>7E0F24F711229114001EA661</string>
 										<key>history</key>
 										<array>
 											<string>7E0F228F112236A1001EA661</string>
 											<string>7E0F2301112281BD001EA661</string>
-											<string>7E0F2302112281BD001EA661</string>
 											<string>7E0F2304112281BD001EA661</string>
 											<string>7E0F23181122821A001EA661</string>
-											<string>7E0F23AE112285B2001EA661</string>
 											<string>7E0F23CB11228679001EA661</string>
-											<string>7E0F23F11122879E001EA661</string>
 											<string>7E0F244511228BC6001EA661</string>
-											<string>7E0F244F11228CCF001EA661</string>
-											<string>7E0F245011228CCF001EA661</string>
-											<string>7E0F246811228D29001EA661</string>
+											<string>7E0F247811228E99001EA661</string>
+											<string>7E0F24C711229053001EA661</string>
+											<string>7E0F24D011229076001EA661</string>
+											<string>7E0F24E6112290E4001EA661</string>
+											<string>7E0F24E7112290E4001EA661</string>
+											<string>7E0F24F011229103001EA661</string>
+											<string>7E0F24F61122910F001EA661</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -474,7 +475,9 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {1143, 182}}</string>
+										<string>{{10, 27}, {1143, 200}}</string>
+										<key>RubberWindowFrame</key>
+										<string>0 59 1440 819 0 0 1440 878 </string>
 									</dict>
 									<key>Module</key>
 									<string>PBXProjectFindModule</string>
@@ -513,8 +516,6 @@
 									<dict>
 										<key>Frame</key>
 										<string>{{10, 27}, {1143, 200}}</string>
-										<key>RubberWindowFrame</key>
-										<string>0 59 1440 819 0 0 1440 878 </string>
 									</dict>
 									<key>Module</key>
 									<string>PBXBuildResultsModule</string>
@@ -718,7 +719,7 @@
 	<key>StatusbarIsVisible</key>
 	<true/>
 	<key>TimeStamp</key>
-	<real>287477050.57871902</real>
+	<real>287478036.27226597</real>
 	<key>ToolbarConfigUserDefaultsMinorVersion</key>
 	<string>2</string>
 	<key>ToolbarDisplayMode</key>
@@ -735,7 +736,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>7E0F246711228CFF001EA661</string>
+		<string>7E0F24F411229103001EA661</string>
 		<string>7E0F21CE11221F8F001EA661</string>
 		<string>7E0F21C211221E56001EA661</string>
 		<string>/Users/berkley/project/iphone/Scorius/Scorius.xcodeproj</string>

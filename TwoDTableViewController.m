@@ -39,6 +39,7 @@
 		//NSInteger height = cellHeight * [self.dataSource countColumns];
 		NSInteger height = [self.dataSource countRows] * cellHeight;
 		self.contentSize = CGSizeMake(width, height);
+		self.view.frame = CGRectMake(0, 25, 200, viewHeight);
 	}
 	return self;
 }
@@ -52,7 +53,6 @@
 	{
 		UITableView *tv = (UITableView*)[self.tableViews objectAtIndex:i];
 		tv.frame = CGRectMake(i * cellHeight, -25, rowWidth, cellHeight * [self.dataSource countColumns] + 50);
-		NSLog(@"right table view size: %f, %f", tv.frame.size.width, tv.frame.size.height);
 		[self.view addSubview:tv];
 	}
 }

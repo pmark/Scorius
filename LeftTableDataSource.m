@@ -49,6 +49,9 @@
 	return CGSizeMake(120, length);
 }
 
+/*
+ * number of sections in the TV
+ */
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
 	return 1;

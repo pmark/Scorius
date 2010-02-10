@@ -18,3 +18,5 @@
 #define cellHeight 50
 //height of the table header rows
 #define headerHeight 30
+//view height
+#define viewHeight 340
