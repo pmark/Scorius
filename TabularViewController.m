@@ -13,7 +13,8 @@
 @implementation TabularViewController
 
 @synthesize rightScrollView, leftTableView, leftTableViewItems, rightTableViewItems,
-  leftTableViewDataSource, rightTableViewController, mainScrollView;
+  leftTableViewDataSource, rightTableViewController, mainScrollView, rightTableViewHeaders,
+  leftTableHeader;
 
 /*
  * initialize with a nib
@@ -53,18 +54,22 @@
 	CGSize leftTableViewSize = [self.leftTableViewDataSource getTableSize];
 	//set the size and position of the left table view 
 	self.leftTableView.frame = CGRectMake(0, -5, leftTableViewSize.width, leftTableViewSize.height);
+	self.leftTableViewDataSource.header = self.leftTableHeader;
 	
 	self.leftTableView.scrollEnabled = NO;
+	//set size and position of main scroll view
 	CGSize mainScrollViewSize = CGSizeMake(320, leftTableViewSize.height + cellHeight);
 	self.mainScrollView.contentSize = mainScrollViewSize;
 	self.mainScrollView.directionalLockEnabled = YES;
 	self.mainScrollView.delegate = self;
 	
 	[self.rightScrollView addSubview:rightTableViewController.view];
+	//set the size of the right scrollable area
 	self.rightScrollView.contentSize = self.rightTableViewController.contentSize;
 	self.rightScrollView.pagingEnabled = NO;
 	self.rightScrollView.bounces = YES;
-	//self.rightScrollView.frame = CGRectMake(0, 0, 1000, 1000);
+	self.rightTableViewController.rightTableDataSource.columnHeaders = self.rightTableViewHeaders;
+	//set the size and location of the right scroll view
 	CGRect fr = self.rightScrollView.frame;
 	self.rightScrollView.frame = CGRectMake(fr.origin.x, fr.origin.y, 
 																					200, 

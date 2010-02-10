@@ -16,6 +16,7 @@
 	TwoDTableViewController *rightTableViewController;
 	NSInteger currentTopRow;
 	UIScrollView *rightScrollView;
+	NSString *header;
 }
 
 @property (nonatomic, retain) NSArray *items;
@@ -23,6 +24,7 @@
 @property (nonatomic, retain) TwoDTableViewController *rightTableViewController;
 @property (nonatomic, assign) NSInteger currentTopRow;
 @property (nonatomic, assign) UIScrollView *rightScrollView;
+@property (nonatomic, retain) NSString *header;
 
 - (CGSize)getTableSize;
 

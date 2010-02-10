@@ -12,8 +12,9 @@
 @interface RightTableDataSource : NSObject <UITableViewDataSource, UIScrollViewDelegate, UITableViewDelegate> 
 {
   TwoDArray *dataSource;
+	NSArray *columnHeaders;
 }
 
 @property (nonatomic, retain) TwoDArray *dataSource;
-
+@property (nonatomic, retain) NSArray *columnHeaders;
 @end

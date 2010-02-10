@@ -10,7 +10,7 @@
 #import "TabularViewConstants.h"
 
 @implementation RightTableDataSource
-@synthesize dataSource;
+@synthesize dataSource, columnHeaders;
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
@@ -18,7 +18,6 @@
 	NSInteger row = indexPath.row;
   UITableViewCell *cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:nil];
 	cell.textLabel.text = (NSString*)[dataSource getValue:row column:col];
-	
 	return cell;
 }
 
@@ -38,5 +37,25 @@
 	return cellHeight;
 }
 
+/*
+ * return column headers for the right table
+ */
+- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
+{
+	NSInteger col = tableView.tag;
+	if([self.columnHeaders count] > col)
+	{
+		return (NSString*)[self.columnHeaders objectAtIndex:col];
+	}
+	else 
+	{
+		return [NSString stringWithFormat:@"%i", col];
+	}
+}
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+{
+	return 1;
+}
 
 @end

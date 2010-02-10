@@ -11,7 +11,7 @@
 
 @implementation LeftTableDataSource
 
-@synthesize items, tableView, rightTableViewController, currentTopRow, rightScrollView;
+@synthesize items, tableView, rightTableViewController, currentTopRow, rightScrollView, header;
 
 /*
  * get a cell for an indexPath for te left table
@@ -48,6 +48,30 @@
 {
 	CGFloat length = [items count] * cellHeight;
 	return CGSizeMake(120, length);
+}
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+{
+	return 1;
+}
+
+//uncomment this to make a vertical separator between the left table and right table
+/*- (NSArray *)sectionIndexTitlesForTableView:(UITableView *)tableView
+{
+	NSMutableArray *headers = [[NSMutableArray alloc] initWithCapacity:1];
+	NSString *header = @"";
+	[headers addObject:header];
+	return headers;
+}*/
+
+- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
+{
+	if(self.header != nil)
+	{
+		return header;
+	}
+	
+	return @"";
 }
 
 @end

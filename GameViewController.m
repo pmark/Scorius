@@ -26,9 +26,21 @@
 	[self.courseNameLabel sizeToFit];
 	TabularViewController *tvc = [[TabularViewController alloc] initWithNibName:@"TabularViewer" bundle:nil];
 	NSArray *array = [self getRowHeaderArray];
+	tvc.rightTableViewHeaders = [self getRightTableHeaderArray];
 	tvc.leftTableViewItems = array;
+	tvc.leftTableHeader = @"Hole";
 	tvc.rightTableViewItems = [self getTwoDArray];
 	[mainViewController	addSubview:tvc.view];
+}
+
+- (NSArray*) getRightTableHeaderArray
+{
+	NSMutableArray *a = [NSMutableArray arrayWithCapacity:10];
+	for(int i=0; i<10; i++)
+	{
+		[a insertObject:[NSString stringWithFormat:@"P%i", i] atIndex:i];
+	}
+	return a;
 }
 
 - (NSArray*) getRowHeaderArray

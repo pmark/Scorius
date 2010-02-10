@@ -23,5 +23,6 @@
 
 - (TwoDArray*) getTwoDArray;
 - (NSArray*) getRowHeaderArray;
+- (NSArray*) getRightTableHeaderArray;
 
 @end

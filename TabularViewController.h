@@ -22,6 +22,9 @@
 	
 	LeftTableDataSource *leftTableViewDataSource;
 	TwoDTableViewController *rightTableViewController;
+	
+	NSArray *rightTableViewHeaders;
+	NSString *leftTableHeader;
 }
 
 @property (nonatomic, retain) IBOutlet UITableView *leftTableView;
@@ -31,5 +34,7 @@
 @property (nonatomic, retain) TwoDArray *rightTableViewItems;
 @property (nonatomic, retain) LeftTableDataSource *leftTableViewDataSource;
 @property (nonatomic, retain) TwoDTableViewController *rightTableViewController;
+@property (nonatomic, retain) NSArray *rightTableViewHeaders;
+@property (nonatomic, retain) NSString *leftTableHeader;
 
 @end
