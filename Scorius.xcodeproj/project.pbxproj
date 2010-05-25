@@ -21,12 +21,11 @@
 		7EA9DFC510EAD08D00B8133A /* StatsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EA9DFC410EAD08D00B8133A /* StatsView.xib */; };
 		7EA9DFC710EAD09C00B8133A /* CoursesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EA9DFC610EAD09C00B8133A /* CoursesView.xib */; };
 		7EA9DFF010EAD34200B8133A /* GamesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA9DFEF10EAD34200B8133A /* GamesViewController.m */; };
+		7EAE2CC4112520E200C87D94 /* VerticalTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EAE2CC3112520E200C87D94 /* VerticalTextViewController.m */; };
 		7EC915511112645200B3E661 /* TabularViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC915501112645200B3E661 /* TabularViewController.m */; };
 		7EC915531112649400B3E661 /* TabularViewer.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EC915521112649400B3E661 /* TabularViewer.xib */; };
 		7EC915F711127E1900B3E661 /* LeftTableDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC915F611127E1900B3E661 /* LeftTableDataSource.m */; };
 		7EC9165B111282F900B3E661 /* TwoDArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC9165A111282F900B3E661 /* TwoDArray.m */; };
-		7EE9EB5811013E390058F742 /* GameMainTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE9EB5711013E390058F742 /* GameMainTableView.m */; };
-		7EE9ECBF110176DD0058F742 /* GamesNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE9ECBE110176DD0058F742 /* GamesNavigationController.m */; };
 		7EE9ED2011017DB00058F742 /* DatabaseUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE9ED1F11017DB00058F742 /* DatabaseUtil.m */; };
 		7EE9ED6E110186220058F742 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EE9ED6D110186220058F742 /* libsqlite3.0.dylib */; };
 		7EE9EDB411018C910058F742 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE9EDB311018C910058F742 /* Game.m */; };
@@ -60,6 +59,8 @@
 		7EA9DFC610EAD09C00B8133A /* CoursesView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CoursesView.xib; sourceTree = "<group>"; };
 		7EA9DFEE10EAD34200B8133A /* GamesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GamesViewController.h; path = Classes/GamesViewController.h; sourceTree = "<group>"; };
 		7EA9DFEF10EAD34200B8133A /* GamesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GamesViewController.m; path = Classes/GamesViewController.m; sourceTree = "<group>"; };
+		7EAE2CC2112520E200C87D94 /* VerticalTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerticalTextViewController.h; sourceTree = "<group>"; };
+		7EAE2CC3112520E200C87D94 /* VerticalTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerticalTextViewController.m; sourceTree = "<group>"; };
 		7EC9154F1112645200B3E661 /* TabularViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabularViewController.h; sourceTree = "<group>"; };
 		7EC915501112645200B3E661 /* TabularViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabularViewController.m; sourceTree = "<group>"; };
 		7EC915521112649400B3E661 /* TabularViewer.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabularViewer.xib; sourceTree = "<group>"; };
@@ -67,10 +68,6 @@
 		7EC915F611127E1900B3E661 /* LeftTableDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftTableDataSource.m; sourceTree = "<group>"; };
 		7EC91659111282F900B3E661 /* TwoDArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoDArray.h; sourceTree = "<group>"; };
 		7EC9165A111282F900B3E661 /* TwoDArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoDArray.m; sourceTree = "<group>"; };
-		7EE9EB5611013E390058F742 /* GameMainTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameMainTableView.h; sourceTree = "<group>"; };
-		7EE9EB5711013E390058F742 /* GameMainTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameMainTableView.m; sourceTree = "<group>"; };
-		7EE9ECBD110176DD0058F742 /* GamesNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamesNavigationController.h; sourceTree = "<group>"; };
-		7EE9ECBE110176DD0058F742 /* GamesNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GamesNavigationController.m; sourceTree = "<group>"; };
 		7EE9ED1E11017DB00058F742 /* DatabaseUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseUtil.h; sourceTree = "<group>"; };
 		7EE9ED1F11017DB00058F742 /* DatabaseUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseUtil.m; sourceTree = "<group>"; };
 		7EE9ED4211017E890058F742 /* ScoriusConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoriusConstants.h; sourceTree = "<group>"; };
@@ -134,11 +131,13 @@
 		29B97314FDCFA39411CA2CEA /* Scorius */ = {
 			isa = PBXGroup;
 			children = (
+				7EAE2CBE1125209C00C87D94 /* Vertical Text Label */,
 				7EC9154E1112643700B3E661 /* TabularViewer */,
 				7EE9EDB111018C840058F742 /* Data Objects */,
 				7EE9ED1D11017D9C0058F742 /* Util */,
 				7EE9EB5511013E200058F742 /* Views */,
-				7EA9E01110EAD5AA00B8133A /* View Controllers */,
+				7E37D45D11AB7E0600885890 /* Player View */,
+				7EA9E01110EAD5AA00B8133A /* Game View */,
 				080E96DDFE201D6D7F000001 /* Delegates */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -182,6 +181,13 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		7E37D45D11AB7E0600885890 /* Player View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Player View";
+			sourceTree = "<group>";
+		};
 		7EA9DFB610EACF8500B8133A /* Database */ = {
 			isa = PBXGroup;
 			children = (
@@ -193,17 +199,24 @@
 			name = Database;
 			sourceTree = "<group>";
 		};
-		7EA9E01110EAD5AA00B8133A /* View Controllers */ = {
+		7EA9E01110EAD5AA00B8133A /* Game View */ = {
 			isa = PBXGroup;
 			children = (
 				7EA9DFEE10EAD34200B8133A /* GamesViewController.h */,
 				7EA9DFEF10EAD34200B8133A /* GamesViewController.m */,
-				7EE9ECBD110176DD0058F742 /* GamesNavigationController.h */,
-				7EE9ECBE110176DD0058F742 /* GamesNavigationController.m */,
 				7EE9EEE511028A800058F742 /* GameViewController.h */,
 				7EE9EEE611028A800058F742 /* GameViewController.m */,
 			);
-			name = "View Controllers";
+			name = "Game View";
+			sourceTree = "<group>";
+		};
+		7EAE2CBE1125209C00C87D94 /* Vertical Text Label */ = {
+			isa = PBXGroup;
+			children = (
+				7EAE2CC2112520E200C87D94 /* VerticalTextViewController.h */,
+				7EAE2CC3112520E200C87D94 /* VerticalTextViewController.m */,
+			);
+			name = "Vertical Text Label";
 			sourceTree = "<group>";
 		};
 		7EC9154E1112643700B3E661 /* TabularViewer */ = {
@@ -236,8 +249,6 @@
 		7EE9EB5511013E200058F742 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				7EE9EB5611013E390058F742 /* GameMainTableView.h */,
-				7EE9EB5711013E390058F742 /* GameMainTableView.m */,
 				7EE9EF0A11028D800058F742 /* GameView.h */,
 				7EE9EF0B11028D800058F742 /* GameView.m */,
 			);
@@ -336,8 +347,6 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* ScoriusAppDelegate.m in Sources */,
 				7EA9DFF010EAD34200B8133A /* GamesViewController.m in Sources */,
-				7EE9EB5811013E390058F742 /* GameMainTableView.m in Sources */,
-				7EE9ECBF110176DD0058F742 /* GamesNavigationController.m in Sources */,
 				7EE9ED2011017DB00058F742 /* DatabaseUtil.m in Sources */,
 				7EE9EDB411018C910058F742 /* Game.m in Sources */,
 				7EE9EE52110283370058F742 /* Course.m in Sources */,
@@ -351,6 +360,7 @@
 				7EC9165B111282F900B3E661 /* TwoDArray.m in Sources */,
 				7EFC0FBB11153CD700F26C09 /* TwoDTableViewController.m in Sources */,
 				7EFC101311154ED700F26C09 /* RightTableDataSource.m in Sources */,
+				7EAE2CC4112520E200C87D94 /* VerticalTextViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

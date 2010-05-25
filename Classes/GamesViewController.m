@@ -27,7 +27,7 @@
 	
 	self.games = [[DatabaseUtil getInstance] getGames];
 	
-	GameMainTableView *gameMainTableView = [[GameMainTableView alloc] initWithFrame:CGRectMake(0, 0, 320, 480) style:UITableViewStylePlain];
+	UITableView *gameMainTableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, 320, 480) style:UITableViewStylePlain];
 	gameMainTableView.delegate = self;
 	gameMainTableView.dataSource = self;
 	

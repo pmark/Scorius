@@ -17,6 +17,8 @@
 //the height of one cell (row) in the table
 #define cellHeight 50
 //height of the table header rows
-#define headerHeight 30
+#define headerHeight 50
 //view height
 #define viewHeight 340
+
+#define DEGREES_TO_RADIANS(__ANGLE__) ((__ANGLE__) / 180.0 * M_PI)

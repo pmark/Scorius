@@ -8,10 +8,13 @@
 
 #import "LeftTableDataSource.h"
 #import "TabularViewConstants.h"
+#import "VerticalTextViewController.h"
+#import "TabularViewController.h"
 
 @implementation LeftTableDataSource
 
-@synthesize items, tableView, rightTableViewController, currentTopRow, rightScrollView, header;
+@synthesize items, tableView, rightTableViewController, currentTopRow, 
+rightScrollView, header, leftTableWidth;
 
 /*
  * get a cell for an indexPath for te left table
@@ -21,6 +24,7 @@
 	UITableViewCell *cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:nil];
 	NSString *text = (NSString*)[items objectAtIndex:indexPath.row];
 	cell.textLabel.text = text;
+	cell.textLabel.backgroundColor = [UIColor grayColor];
 	return cell;
 }
 
@@ -85,6 +89,18 @@
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
 {
 	return headerHeight;
+}
+
+- (UIView*)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger) section
+{
+	NSString *headerText = @"";
+	if(self.header != nil)
+	{
+		headerText = self.header;
+	}
+	
+	return [TabularViewController getRotatedLabel:headerText angle:-45];
+	
 }
 
 @end

@@ -25,6 +25,8 @@
 	
 	NSArray *rightTableViewHeaders;
 	NSString *leftTableHeader;
+	
+	NSInteger leftTableWidth;
 }
 
 @property (nonatomic, retain) IBOutlet UITableView *leftTableView;
@@ -36,5 +38,8 @@
 @property (nonatomic, retain) TwoDTableViewController *rightTableViewController;
 @property (nonatomic, retain) NSArray *rightTableViewHeaders;
 @property (nonatomic, retain) NSString *leftTableHeader;
+@property (nonatomic, assign) NSInteger leftTableWidth;
 
+- (id) init;
++ (UIView*) getRotatedLabel:(NSString*)text angle:(CGFloat)rotation;
 @end

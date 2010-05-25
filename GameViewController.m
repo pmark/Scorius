@@ -24,22 +24,30 @@
 	Course *course = [self.game getCourse];
 	self.courseNameLabel.text = [NSString stringWithFormat:@"Game at %@ on %@", course.name, game.date];
 	[self.courseNameLabel sizeToFit];
-	TabularViewController *tvc = [[TabularViewController alloc] initWithNibName:@"TabularViewer" bundle:nil];
+	TabularViewController *tvc = [[TabularViewController alloc] init];
 	NSArray *array = [self getRowHeaderArray];
 	tvc.rightTableViewHeaders = [self getRightTableHeaderArray];
 	tvc.leftTableViewItems = array;
-	tvc.leftTableHeader = @"Hole";
+	tvc.leftTableHeader = @"HoleXXX";
 	tvc.rightTableViewItems = [self getTwoDArray];
+	tvc.leftTableWidth = 50;
 	[mainViewController	addSubview:tvc.view];
 }
 
 - (NSArray*) getRightTableHeaderArray
 {
 	NSMutableArray *a = [NSMutableArray arrayWithCapacity:10];
-	for(int i=0; i<10; i++)
-	{
-		[a insertObject:[NSString stringWithFormat:@"P%i", i] atIndex:i];
-	}
+	[a insertObject:[NSString stringWithFormat:@"Chad"] atIndex:0];
+	[a insertObject:[NSString stringWithFormat:@"Mark"] atIndex:1];
+	[a insertObject:[NSString stringWithFormat:@"Paige"] atIndex:2];
+	[a insertObject:[NSString stringWithFormat:@"Andrea"] atIndex:3];
+	[a insertObject:[NSString stringWithFormat:@"Matthew"] atIndex:4];
+	[a insertObject:[NSString stringWithFormat:@"Josh"] atIndex:5];
+	[a insertObject:[NSString stringWithFormat:@"Dan"] atIndex:6];
+	[a insertObject:[NSString stringWithFormat:@"Kelly"] atIndex:7];
+	[a insertObject:[NSString stringWithFormat:@"Elowah"] atIndex:8];
+	[a insertObject:[NSString stringWithFormat:@"Christopher"] atIndex:9];
+
 	return a;
 }
 
@@ -48,7 +56,7 @@
 	NSMutableArray *a = [NSMutableArray arrayWithCapacity:10];
 	for(int i=0; i<10; i++)
 	{
-		[a insertObject:[NSString stringWithFormat:@"row %i",i] atIndex:i];
+		[a insertObject:[NSString stringWithFormat:@"%i",i] atIndex:i];
 	}
 	return a;
 }

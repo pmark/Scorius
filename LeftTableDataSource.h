@@ -17,6 +17,7 @@
 	NSInteger currentTopRow;
 	UIScrollView *rightScrollView;
 	NSString *header;
+	NSInteger leftTableWidth;
 }
 
 @property (nonatomic, retain) NSArray *items;
@@ -25,6 +26,7 @@
 @property (nonatomic, assign) NSInteger currentTopRow;
 @property (nonatomic, assign) UIScrollView *rightScrollView;
 @property (nonatomic, retain) NSString *header;
+@property (nonatomic, assign) NSInteger leftTableWidth;
 
 - (CGSize)getTableSize;
 

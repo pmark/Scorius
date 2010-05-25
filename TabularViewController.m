@@ -14,15 +14,16 @@
 
 @synthesize rightScrollView, leftTableView, leftTableViewItems, rightTableViewItems,
   leftTableViewDataSource, rightTableViewController, mainScrollView, rightTableViewHeaders,
-  leftTableHeader;
+  leftTableHeader, leftTableWidth;
 
 /*
  * initialize with a nib
  */
-- (id) initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+- (id) init 
 {
-	if(self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil])
+	if(self = [super initWithNibName:@"TabularViewer" bundle:nil])
 	{
+		leftTableWidth = 120;
 		return self;
 	}
 	return self;
@@ -48,12 +49,13 @@
 	self.leftTableView.delegate = self.leftTableViewDataSource;
 	
 	self.leftTableViewDataSource.tableView = self.leftTableView;
+	self.leftTableViewDataSource.leftTableWidth = self.leftTableWidth;
 	self.leftTableViewDataSource.currentTopRow = 0;
 	self.leftTableViewDataSource.rightTableViewController = self.rightTableViewController;
 	self.leftTableViewDataSource.rightScrollView = self.rightScrollView;
 	CGSize leftTableViewSize = [self.leftTableViewDataSource getTableSize];
 	//set the size and position of the left table view 
-	self.leftTableView.frame = CGRectMake(0, 0, leftTableViewSize.width, leftTableViewSize.height + 50);
+	self.leftTableView.frame = CGRectMake(0, 0, leftTableWidth, leftTableViewSize.height + 50);
 	self.leftTableViewDataSource.header = self.leftTableHeader;
 	
 	self.leftTableView.scrollEnabled = NO;
@@ -71,11 +73,38 @@
 	self.rightScrollView.bounces = YES;
 	self.rightTableViewController.rightTableDataSource.columnHeaders = self.rightTableViewHeaders;
 	//set the size and location of the right scroll view
-	self.rightScrollView.frame = CGRectMake(120, 0, 
-																					200, 
+	self.rightScrollView.frame = CGRectMake(leftTableWidth, 0, 
+																					320 - leftTableWidth, 
 																					[rightTableViewController.dataSource countRows] * cellHeight + 50);
 	
 	
+}
+
+/*
+ * return a label with text rotated 
+ */
++ (UIView*) getRotatedLabel:(NSString*)text angle:(CGFloat)rotation
+{
+	UIView *newview = [[UIView alloc] init];
+	UILabel *label = [[UILabel alloc] init];
+	label.text = text;
+	label.adjustsFontSizeToFitWidth = YES;
+	//label.backgroundColor = [UIColor grayColor];
+	label.textColor = [UIColor blackColor];
+	label.opaque = NO;
+	[label sizeToFit];
+	[newview addSubview:label];
+	newview.transform = CGAffineTransformMakeRotation(DEGREES_TO_RADIANS(-55));
+	newview.bounds = CGRectMake(30,-30, 0, 0);
+	return newview;
+}
+
+/*
+ * return a reversed string
+ */
++ (NSString*) reverseText:(NSString*)text
+{
+	return @"";
 }
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView

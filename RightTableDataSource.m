@@ -8,6 +8,9 @@
 
 #import "RightTableDataSource.h"
 #import "TabularViewConstants.h"
+#import "VerticalTextViewController.h"
+#import "TabularViewConstants.h"
+#import "TabularViewController.h"
 
 @implementation RightTableDataSource
 @synthesize dataSource, columnHeaders;
@@ -71,5 +74,19 @@
 {
 	return headerHeight;
 }
+
+- (UIView*)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger) section
+{
+	
+	NSInteger col = tableView.tag;
+	NSString *text = [NSString stringWithFormat:@"%i", col];
+	if([self.columnHeaders count] > col)
+	{
+		text = (NSString*)[self.columnHeaders objectAtIndex:col];
+	}
+	
+	return [TabularViewController getRotatedLabel:text angle:-45];
+}
+
 
 @end

@@ -7,7 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "GameMainTableView.h"
 
 @interface GamesViewController : UIViewController <UITableViewDataSource, UITableViewDelegate> 
 {
