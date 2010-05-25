@@ -35,7 +35,6 @@
 		7EE9EE611102857A0058F742 /* Score.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE9EE601102857A0058F742 /* Score.m */; };
 		7EE9EEE711028A800058F742 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE9EEE611028A800058F742 /* GameViewController.m */; };
 		7EE9EEE911028BBF0058F742 /* GameView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EE9EEE811028BBF0058F742 /* GameView.xib */; };
-		7EE9EF0C11028D800058F742 /* GameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE9EF0B11028D800058F742 /* GameView.m */; };
 		7EFC0FBB11153CD700F26C09 /* TwoDTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFC0FBA11153CD700F26C09 /* TwoDTableViewController.m */; };
 		7EFC101311154ED700F26C09 /* RightTableDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFC101211154ED700F26C09 /* RightTableDataSource.m */; };
 /* End PBXBuildFile section */
@@ -85,8 +84,6 @@
 		7EE9EEE511028A800058F742 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
 		7EE9EEE611028A800058F742 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
 		7EE9EEE811028BBF0058F742 /* GameView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GameView.xib; sourceTree = "<group>"; };
-		7EE9EF0A11028D800058F742 /* GameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameView.h; sourceTree = "<group>"; };
-		7EE9EF0B11028D800058F742 /* GameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameView.m; sourceTree = "<group>"; };
 		7EEC8290111690F9008734BE /* TabularViewConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabularViewConstants.h; sourceTree = "<group>"; };
 		7EFC0FB911153CD700F26C09 /* TwoDTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoDTableViewController.h; sourceTree = "<group>"; };
 		7EFC0FBA11153CD700F26C09 /* TwoDTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoDTableViewController.m; sourceTree = "<group>"; };
@@ -135,7 +132,6 @@
 				7EC9154E1112643700B3E661 /* TabularViewer */,
 				7EE9EDB111018C840058F742 /* Data Objects */,
 				7EE9ED1D11017D9C0058F742 /* Util */,
-				7EE9EB5511013E200058F742 /* Views */,
 				7E37D45D11AB7E0600885890 /* Player View */,
 				7EA9E01110EAD5AA00B8133A /* Game View */,
 				080E96DDFE201D6D7F000001 /* Delegates */,
@@ -246,15 +242,6 @@
 			name = Nibs;
 			sourceTree = "<group>";
 		};
-		7EE9EB5511013E200058F742 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				7EE9EF0A11028D800058F742 /* GameView.h */,
-				7EE9EF0B11028D800058F742 /* GameView.m */,
-			);
-			name = Views;
-			sourceTree = "<group>";
-		};
 		7EE9ED1D11017D9C0058F742 /* Util */ = {
 			isa = PBXGroup;
 			children = (
@@ -354,7 +341,6 @@
 				7EE9EE58110283BA0058F742 /* User.m in Sources */,
 				7EE9EE611102857A0058F742 /* Score.m in Sources */,
 				7EE9EEE711028A800058F742 /* GameViewController.m in Sources */,
-				7EE9EF0C11028D800058F742 /* GameView.m in Sources */,
 				7EC915511112645200B3E661 /* TabularViewController.m in Sources */,
 				7EC915F711127E1900B3E661 /* LeftTableDataSource.m in Sources */,
 				7EC9165B111282F900B3E661 /* TwoDArray.m in Sources */,

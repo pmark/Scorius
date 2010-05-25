@@ -10,7 +10,6 @@
 #import "DatabaseUtil.h"
 #import "Game.h"
 #import "GameViewController.h"
-#import "GameView.h"
 #import "Course.h"
 
 @implementation GamesViewController

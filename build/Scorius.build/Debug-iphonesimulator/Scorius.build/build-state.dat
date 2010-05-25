@@ -1,7 +1,7 @@
 TScorius
 v7
 r0
-t296452155.191114
+t296452732.636947
 cCheck dependencies
 cProcessInfoPlistFile /Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/Scorius.app/Info.plist Scorius-Info.plist
 cCompileXIB /Users/berkley/project/iphone/Scorius/MainWindow.xib
@@ -25,7 +25,6 @@ cCompileC build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal
 cCompileC build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/User.o /Users/berkley/project/iphone/Scorius/User.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/Score.o /Users/berkley/project/iphone/Scorius/Score.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/GameViewController.o /Users/berkley/project/iphone/Scorius/GameViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/GameView.o /Users/berkley/project/iphone/Scorius/GameView.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/TabularViewController.o /Users/berkley/project/iphone/Scorius/TabularViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/LeftTableDataSource.o /Users/berkley/project/iphone/Scorius/LeftTableDataSource.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/TwoDArray.o /Users/berkley/project/iphone/Scorius/TwoDArray.m normal i386 objective-c com.apple.compilers.gcc.4_2
@@ -107,14 +106,13 @@ s459
 i<Foundation/Foundation.h>
 
 N/Users/berkley/project/iphone/Scorius/Classes/GamesViewController.m
-c000000004BFB48BA00000000000008B5
-t1274759354
-s2229
+c000000004BFB4AE400000000000008A0
+t1274759908
+s2208
 i"GamesViewController.h"
 i"DatabaseUtil.h"
 i"Game.h"
 i"GameViewController.h"
-i"GameView.h"
 i"Course.h"
 
 N/Users/berkley/project/iphone/Scorius/Classes/ScoriusAppDelegate.h
@@ -454,67 +452,67 @@ i"VerticalTextViewController.h"
 i"TabularViewConstants.h"
 
 N/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/Scorius.app
-t1274759355
+t1274759932
 s510
 
 N/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/Scorius.app.dSYM
-t1274759355
+t1274759932
 s102
 
 N/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/Scorius.app/CoursesView.nib
-t1274759121
+t1274759930
 s1646
 
 N/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/Scorius.app/GameView.nib
-t1274759122
+t1274759930
 s2004
 
 N/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/Scorius.app/Info.plist
-t1274759120
+t1274759929
 s567
 
 N/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/Scorius.app/MainWindow.nib
-t1274759121
+t1274759930
 s3327
 
 N/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/Scorius.app/PkgInfo
-t1274759120
+t1274759929
 s8
 
 N/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/Scorius.app/PlayersView.nib
-t1274759121
+t1274759930
 s1646
 
 N/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/Scorius.app/Scorius
-t1274759355
-s77420
+t1274759932
+s73272
 
 N/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/Scorius.app/SecondView.nib
 t2
 s0
 
 N/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/Scorius.app/StatsView.nib
-t1274759121
+t1274759930
 s1644
 
 N/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/Scorius.app/TabularViewer.nib
-t1274759122
+t1274759931
 s2045
 
 N/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/Scorius.app/data.sql
-t1274759121
+t1274759929
 s2631
 
 N/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/Scorius.app/scorius.mysql.sql
-t1274759121
+t1274759929
 s56437
 
 N/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/Scorius.app/scorius.sqlite
-t1274759121
+t1274759929
 s14336
 
 N/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/Scorius.app/scorius.sqlite.sql
-t1274759121
+t1274759929
 s1335
 
 N/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/2DArray.o
@@ -522,11 +520,11 @@ t1264910415
 s8796
 
 N/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/Course.o
-t1274759354
+t1274759932
 s7808
 
 N/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/DatabaseUtil.o
-t1274759123
+t1274759931
 s18312
 
 N/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/FirstViewController.o
@@ -534,7 +532,7 @@ t1262131638
 s29920
 
 N/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/Game.o
-t1274759354
+t1274759932
 s10080
 
 N/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/GameMainTableView.o
@@ -550,7 +548,7 @@ t1274759354
 s4876
 
 N/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/GameViewController.o
-t1274759354
+t1274759932
 s40728
 
 N/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/GamesNavigationController.o
@@ -558,15 +556,15 @@ t1274757565
 s31920
 
 N/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/GamesViewController.o
-t1274759354
+t1274759931
 s41744
 
 N/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/Hole.o
-t1274759354
+t1274759932
 s8428
 
 N/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/LeftTableDataSource.o
-t1274759354
+t1274759932
 s43932
 
 N/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/Player.o
@@ -574,20 +572,20 @@ t1263685006
 s4864
 
 N/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/RightTableDataSource.o
-t1274759355
+t1274759932
 s39792
 
 N/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/Score.o
-t1274759354
+t1274759932
 s4856
 
 N/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/Scorius.LinkFileList
-c000000004BFB47D000000000000008A1
-t1274759120
-s2209
+c000000004BFB4AF90000000000000824
+t1274759929
+s2084
 
 N/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/ScoriusAppDelegate.o
-t1274759123
+t1274759931
 s41440
 
 N/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/ScoriusConstants.o
@@ -599,19 +597,19 @@ t2
 s0
 
 N/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/TabularViewController.o
-t1274759354
+t1274759932
 s49712
 
 N/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/TwoDArray.o
-t1274759354
+t1274759932
 s11640
 
 N/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/TwoDTableViewController.o
-t1274759355
+t1274759932
 s37620
 
 N/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/User.o
-t1274759354
+t1274759932
 s9996
 
 N/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/VerticalTextView.o
@@ -619,11 +617,11 @@ t2
 s0
 
 N/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/VerticalTextViewController.o
-t1274759355
+t1274759932
 s31712
 
 N/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/main.o
-t1274759123
+t1274759931
 s5956
 
 N/Users/berkley/project/iphone/Scorius/data.sql
@@ -653,7 +651,7 @@ t1265755827
 s1335
 
 N/var/folders/Wl/Wlz-68VMENWsmvgapIH6aU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Scorius_Prefix-aoogavjhrehffqbbsoxpihvvmchi/Scorius_Prefix.pch.gch
-t1274759123
+t1274759931
 s13034960
 
 NScorius-Info.plist
@@ -663,7 +661,7 @@ s912
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies296452154#296452154#0(0"0(0#1#0"7947009927035180032#0"0#
+lSLF07#2@18"Check dependencies296452729#296452729#0(0"0(0#1#0"4300885448#0"0#
 
 CCompileC build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/2DArray.o /Users/berkley/project/iphone/Scorius/2DArray.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s286603214.182035
@@ -679,8 +677,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@55"Compile /Users/berkley/project/iphone/Scorius/2DArray.m286603214#286603215#0(0"0(0#0#47"/Users/berkley/project/iphone/Scorius/2DArray.m4300885448#1862"    cd /Users/berkley/project/iphone/Scorius    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Werror -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-generated-files.hmap -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-own-target-headers.hmap -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-all-target-headers.hmap -iquote /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-project-headers.hmap -F/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator -I/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/include -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/DerivedSources/i386 -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/DerivedSources -include /var/folders/Wl/Wlz-68VMENWsmvgapIH6aU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Scorius_Prefix-aoogavjhrehffqbbsoxpihvvmchi/Scorius_Prefix.pch -c /Users/berkley/project/iphone/Scorius/2DArray.m -o /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/2DArray.o0#
 
 CCompileC build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/Course.o /Users/berkley/project/iphone/Scorius/Course.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s296452154.505976
-e296452154.612589
+s296452731.986054
+e296452732.054388
 r1
 xCompileC
 xbuild/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/Course.o
@@ -689,11 +687,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@54"Compile /Users/berkley/project/iphone/Scorius/Course.m296452154#296452154#0(0"0(0#0#46"/Users/berkley/project/iphone/Scorius/Course.m4300885448#1860"    cd /Users/berkley/project/iphone/Scorius    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Werror -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-generated-files.hmap -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-own-target-headers.hmap -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-all-target-headers.hmap -iquote /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-project-headers.hmap -F/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator -I/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/include -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/DerivedSources/i386 -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/DerivedSources -include /var/folders/Wl/Wlz-68VMENWsmvgapIH6aU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Scorius_Prefix-aoogavjhrehffqbbsoxpihvvmchi/Scorius_Prefix.pch -c /Users/berkley/project/iphone/Scorius/Course.m -o /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/Course.o0#
+lSLF07#2@54"Compile /Users/berkley/project/iphone/Scorius/Course.m296452731#296452732#0(0"0(0#0#46"/Users/berkley/project/iphone/Scorius/Course.m4300885448#1860"    cd /Users/berkley/project/iphone/Scorius    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Werror -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-generated-files.hmap -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-own-target-headers.hmap -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-all-target-headers.hmap -iquote /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-project-headers.hmap -F/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator -I/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/include -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/DerivedSources/i386 -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/DerivedSources -include /var/folders/Wl/Wlz-68VMENWsmvgapIH6aU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Scorius_Prefix-aoogavjhrehffqbbsoxpihvvmchi/Scorius_Prefix.pch -c /Users/berkley/project/iphone/Scorius/Course.m -o /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/Course.o0#
 
 CCompileC build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/DatabaseUtil.o /Users/berkley/project/iphone/Scorius/DatabaseUtil.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s296451923.208300
-e296451923.299337
+s296452731.884809
+e296452731.985943
 r1
 xCompileC
 xbuild/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/DatabaseUtil.o
@@ -702,7 +700,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@60"Compile /Users/berkley/project/iphone/Scorius/DatabaseUtil.m296451923#296451923#0(0"0(0#0#52"/Users/berkley/project/iphone/Scorius/DatabaseUtil.m4300885448#1872"    cd /Users/berkley/project/iphone/Scorius    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Werror -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-generated-files.hmap -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-own-target-headers.hmap -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-all-target-headers.hmap -iquote /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-project-headers.hmap -F/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator -I/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/include -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/DerivedSources/i386 -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/DerivedSources -include /var/folders/Wl/Wlz-68VMENWsmvgapIH6aU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Scorius_Prefix-aoogavjhrehffqbbsoxpihvvmchi/Scorius_Prefix.pch -c /Users/berkley/project/iphone/Scorius/DatabaseUtil.m -o /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/DatabaseUtil.o0#
+lSLF07#2@60"Compile /Users/berkley/project/iphone/Scorius/DatabaseUtil.m296452731#296452731#0(0"0(0#0#52"/Users/berkley/project/iphone/Scorius/DatabaseUtil.m4300885448#1872"    cd /Users/berkley/project/iphone/Scorius    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Werror -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-generated-files.hmap -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-own-target-headers.hmap -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-all-target-headers.hmap -iquote /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-project-headers.hmap -F/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator -I/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/include -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/DerivedSources/i386 -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/DerivedSources -include /var/folders/Wl/Wlz-68VMENWsmvgapIH6aU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Scorius_Prefix-aoogavjhrehffqbbsoxpihvvmchi/Scorius_Prefix.pch -c /Users/berkley/project/iphone/Scorius/DatabaseUtil.m -o /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/DatabaseUtil.o0#
 
 CCompileC build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/FirstViewController.o /Users/berkley/project/iphone/Scorius/Classes/FirstViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s283824438.488262
@@ -718,8 +716,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@75"Compile /Users/berkley/project/iphone/Scorius/Classes/FirstViewController.m283824438#283824438#0(0"0(0#0#67"/Users/berkley/project/iphone/Scorius/Classes/FirstViewController.m4300885448#1886"    cd /Users/berkley/project/iphone/Scorius    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-generated-files.hmap -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-own-target-headers.hmap -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-all-target-headers.hmap -iquote /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-project-headers.hmap -F/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator -I/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/include -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/DerivedSources/i386 -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/DerivedSources -include /var/folders/Wl/Wlz-68VMENWsmvgapIH6aU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Scorius_Prefix-aoogavjhrehffqbbsoxpihvvmchi/Scorius_Prefix.pch -c /Users/berkley/project/iphone/Scorius/Classes/FirstViewController.m -o /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/FirstViewController.o0#
 
 CCompileC build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/Game.o /Users/berkley/project/iphone/Scorius/Game.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s296452154.393396
-e296452154.516058
+s296452731.959666
+e296452732.050600
 r1
 xCompileC
 xbuild/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/Game.o
@@ -728,7 +726,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@52"Compile /Users/berkley/project/iphone/Scorius/Game.m296452154#296452154#0(0"0(0#0#44"/Users/berkley/project/iphone/Scorius/Game.m4300885448#1856"    cd /Users/berkley/project/iphone/Scorius    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Werror -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-generated-files.hmap -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-own-target-headers.hmap -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-all-target-headers.hmap -iquote /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-project-headers.hmap -F/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator -I/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/include -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/DerivedSources/i386 -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/DerivedSources -include /var/folders/Wl/Wlz-68VMENWsmvgapIH6aU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Scorius_Prefix-aoogavjhrehffqbbsoxpihvvmchi/Scorius_Prefix.pch -c /Users/berkley/project/iphone/Scorius/Game.m -o /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/Game.o0#
+lSLF07#2@52"Compile /Users/berkley/project/iphone/Scorius/Game.m296452731#296452732#0(0"0(0#0#44"/Users/berkley/project/iphone/Scorius/Game.m4300885448#1856"    cd /Users/berkley/project/iphone/Scorius    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Werror -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-generated-files.hmap -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-own-target-headers.hmap -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-all-target-headers.hmap -iquote /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-project-headers.hmap -F/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator -I/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/include -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/DerivedSources/i386 -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/DerivedSources -include /var/folders/Wl/Wlz-68VMENWsmvgapIH6aU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Scorius_Prefix-aoogavjhrehffqbbsoxpihvvmchi/Scorius_Prefix.pch -c /Users/berkley/project/iphone/Scorius/Game.m -o /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/Game.o0#
 
 CCompileC build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/GameMainTableView.o /Users/berkley/project/iphone/Scorius/GameMainTableView.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s296450365.679394
@@ -770,8 +768,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@56"Compile /Users/berkley/project/iphone/Scorius/GameView.m296452154#296452154#0(0"0(0#0#48"/Users/berkley/project/iphone/Scorius/GameView.m4300885448#1864"    cd /Users/berkley/project/iphone/Scorius    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Werror -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-generated-files.hmap -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-own-target-headers.hmap -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-all-target-headers.hmap -iquote /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-project-headers.hmap -F/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator -I/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/include -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/DerivedSources/i386 -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/DerivedSources -include /var/folders/Wl/Wlz-68VMENWsmvgapIH6aU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Scorius_Prefix-aoogavjhrehffqbbsoxpihvvmchi/Scorius_Prefix.pch -c /Users/berkley/project/iphone/Scorius/GameView.m -o /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/GameView.o0#
 
 CCompileC build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/GameViewController.o /Users/berkley/project/iphone/Scorius/GameViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s296452154.675137
-e296452154.839506
+s296452732.131994
+e296452732.257058
 r1
 xCompileC
 xbuild/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/GameViewController.o
@@ -780,7 +778,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@66"Compile /Users/berkley/project/iphone/Scorius/GameViewController.m296452154#296452154#0(0"0(0#0#58"/Users/berkley/project/iphone/Scorius/GameViewController.m4300885448#1884"    cd /Users/berkley/project/iphone/Scorius    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Werror -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-generated-files.hmap -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-own-target-headers.hmap -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-all-target-headers.hmap -iquote /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-project-headers.hmap -F/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator -I/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/include -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/DerivedSources/i386 -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/DerivedSources -include /var/folders/Wl/Wlz-68VMENWsmvgapIH6aU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Scorius_Prefix-aoogavjhrehffqbbsoxpihvvmchi/Scorius_Prefix.pch -c /Users/berkley/project/iphone/Scorius/GameViewController.m -o /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/GameViewController.o0#
+lSLF07#2@66"Compile /Users/berkley/project/iphone/Scorius/GameViewController.m296452732#296452732#0(0"0(0#0#58"/Users/berkley/project/iphone/Scorius/GameViewController.m4300885448#1884"    cd /Users/berkley/project/iphone/Scorius    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Werror -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-generated-files.hmap -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-own-target-headers.hmap -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-all-target-headers.hmap -iquote /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-project-headers.hmap -F/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator -I/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/include -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/DerivedSources/i386 -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/DerivedSources -include /var/folders/Wl/Wlz-68VMENWsmvgapIH6aU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Scorius_Prefix-aoogavjhrehffqbbsoxpihvvmchi/Scorius_Prefix.pch -c /Users/berkley/project/iphone/Scorius/GameViewController.m -o /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/GameViewController.o0#
 
 CCompileC build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/GamesNavigationController.o /Users/berkley/project/iphone/Scorius/GamesNavigationController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s296450365.743046
@@ -796,8 +794,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@73"Compile /Users/berkley/project/iphone/Scorius/GamesNavigationController.m296450365#296450365#0(0"0(0#0#65"/Users/berkley/project/iphone/Scorius/GamesNavigationController.m4300885448#1898"    cd /Users/berkley/project/iphone/Scorius    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Werror -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-generated-files.hmap -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-own-target-headers.hmap -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-all-target-headers.hmap -iquote /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-project-headers.hmap -F/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator -I/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/include -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/DerivedSources/i386 -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/DerivedSources -include /var/folders/Wl/Wlz-68VMENWsmvgapIH6aU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Scorius_Prefix-aoogavjhrehffqbbsoxpihvvmchi/Scorius_Prefix.pch -c /Users/berkley/project/iphone/Scorius/GamesNavigationController.m -o /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/GamesNavigationController.o0#
 
 CCompileC build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/GamesViewController.o /Users/berkley/project/iphone/Scorius/Classes/GamesViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s296452154.383362
-e296452154.505875
+s296452731.847280
+e296452731.959545
 r1
 xCompileC
 xbuild/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/GamesViewController.o
@@ -806,11 +804,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@75"Compile /Users/berkley/project/iphone/Scorius/Classes/GamesViewController.m296452154#296452154#0(0"0(0#0#67"/Users/berkley/project/iphone/Scorius/Classes/GamesViewController.m7307775882661165056#1894"    cd /Users/berkley/project/iphone/Scorius    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Werror -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-generated-files.hmap -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-own-target-headers.hmap -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-all-target-headers.hmap -iquote /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-project-headers.hmap -F/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator -I/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/include -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/DerivedSources/i386 -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/DerivedSources -include /var/folders/Wl/Wlz-68VMENWsmvgapIH6aU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Scorius_Prefix-aoogavjhrehffqbbsoxpihvvmchi/Scorius_Prefix.pch -c /Users/berkley/project/iphone/Scorius/Classes/GamesViewController.m -o /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/GamesViewController.o0#
+lSLF07#2@75"Compile /Users/berkley/project/iphone/Scorius/Classes/GamesViewController.m296452731#296452731#0(0"0(0#0#67"/Users/berkley/project/iphone/Scorius/Classes/GamesViewController.m4300885448#1894"    cd /Users/berkley/project/iphone/Scorius    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Werror -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-generated-files.hmap -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-own-target-headers.hmap -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-all-target-headers.hmap -iquote /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-project-headers.hmap -F/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator -I/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/include -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/DerivedSources/i386 -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/DerivedSources -include /var/folders/Wl/Wlz-68VMENWsmvgapIH6aU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Scorius_Prefix-aoogavjhrehffqbbsoxpihvvmchi/Scorius_Prefix.pch -c /Users/berkley/project/iphone/Scorius/Classes/GamesViewController.m -o /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/GamesViewController.o0#
 
 CCompileC build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/Hole.o /Users/berkley/project/iphone/Scorius/Hole.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s296452154.516402
-e296452154.586362
+s296452732.050790
+e296452732.129669
 r1
 xCompileC
 xbuild/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/Hole.o
@@ -819,11 +817,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@52"Compile /Users/berkley/project/iphone/Scorius/Hole.m296452154#296452154#0(0"0(0#0#44"/Users/berkley/project/iphone/Scorius/Hole.m4300885448#1856"    cd /Users/berkley/project/iphone/Scorius    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Werror -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-generated-files.hmap -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-own-target-headers.hmap -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-all-target-headers.hmap -iquote /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-project-headers.hmap -F/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator -I/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/include -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/DerivedSources/i386 -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/DerivedSources -include /var/folders/Wl/Wlz-68VMENWsmvgapIH6aU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Scorius_Prefix-aoogavjhrehffqbbsoxpihvvmchi/Scorius_Prefix.pch -c /Users/berkley/project/iphone/Scorius/Hole.m -o /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/Hole.o0#
+lSLF07#2@52"Compile /Users/berkley/project/iphone/Scorius/Hole.m296452732#296452732#0(0"0(0#0#44"/Users/berkley/project/iphone/Scorius/Hole.m4300885448#1856"    cd /Users/berkley/project/iphone/Scorius    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Werror -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-generated-files.hmap -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-own-target-headers.hmap -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-all-target-headers.hmap -iquote /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-project-headers.hmap -F/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator -I/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/include -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/DerivedSources/i386 -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/DerivedSources -include /var/folders/Wl/Wlz-68VMENWsmvgapIH6aU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Scorius_Prefix-aoogavjhrehffqbbsoxpihvvmchi/Scorius_Prefix.pch -c /Users/berkley/project/iphone/Scorius/Hole.m -o /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/Hole.o0#
 
 CCompileC build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/LeftTableDataSource.o /Users/berkley/project/iphone/Scorius/LeftTableDataSource.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s296452154.839606
-e296452154.941281
+s296452732.257168
+e296452732.366579
 r1
 xCompileC
 xbuild/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/LeftTableDataSource.o
@@ -832,7 +830,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@67"Compile /Users/berkley/project/iphone/Scorius/LeftTableDataSource.m296452154#296452154#0(0"0(0#0#59"/Users/berkley/project/iphone/Scorius/LeftTableDataSource.m4300885448#1886"    cd /Users/berkley/project/iphone/Scorius    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Werror -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-generated-files.hmap -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-own-target-headers.hmap -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-all-target-headers.hmap -iquote /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-project-headers.hmap -F/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator -I/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/include -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/DerivedSources/i386 -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/DerivedSources -include /var/folders/Wl/Wlz-68VMENWsmvgapIH6aU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Scorius_Prefix-aoogavjhrehffqbbsoxpihvvmchi/Scorius_Prefix.pch -c /Users/berkley/project/iphone/Scorius/LeftTableDataSource.m -o /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/LeftTableDataSource.o0#
+lSLF07#2@67"Compile /Users/berkley/project/iphone/Scorius/LeftTableDataSource.m296452732#296452732#0(0"0(0#0#59"/Users/berkley/project/iphone/Scorius/LeftTableDataSource.m4300885448#1886"    cd /Users/berkley/project/iphone/Scorius    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Werror -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-generated-files.hmap -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-own-target-headers.hmap -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-all-target-headers.hmap -iquote /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-project-headers.hmap -F/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator -I/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/include -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/DerivedSources/i386 -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/DerivedSources -include /var/folders/Wl/Wlz-68VMENWsmvgapIH6aU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Scorius_Prefix-aoogavjhrehffqbbsoxpihvvmchi/Scorius_Prefix.pch -c /Users/berkley/project/iphone/Scorius/LeftTableDataSource.m -o /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/LeftTableDataSource.o0#
 
 CCompileC build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/Player.o /Users/berkley/project/iphone/Scorius/Player.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s285377804.802110
@@ -848,8 +846,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@54"Compile /Users/berkley/project/iphone/Scorius/Player.m285377804#285377806#0(0"0(0#0#46"/Users/berkley/project/iphone/Scorius/Player.m4300885448#1860"    cd /Users/berkley/project/iphone/Scorius    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Werror -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-generated-files.hmap -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-own-target-headers.hmap -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-all-target-headers.hmap -iquote /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-project-headers.hmap -F/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator -I/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/include -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/DerivedSources/i386 -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/DerivedSources -include /var/folders/Wl/Wlz-68VMENWsmvgapIH6aU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Scorius_Prefix-aoogavjhrehffqbbsoxpihvvmchi/Scorius_Prefix.pch -c /Users/berkley/project/iphone/Scorius/Player.m -o /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/Player.o0#
 
 CCompileC build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/RightTableDataSource.o /Users/berkley/project/iphone/Scorius/RightTableDataSource.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s296452154.946684
-e296452155.043861
+s296452732.405181
+e296452732.501931
 r1
 xCompileC
 xbuild/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/RightTableDataSource.o
@@ -858,11 +856,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@68"Compile /Users/berkley/project/iphone/Scorius/RightTableDataSource.m296452154#296452155#0(0"0(0#0#60"/Users/berkley/project/iphone/Scorius/RightTableDataSource.m4300885448#1888"    cd /Users/berkley/project/iphone/Scorius    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Werror -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-generated-files.hmap -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-own-target-headers.hmap -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-all-target-headers.hmap -iquote /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-project-headers.hmap -F/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator -I/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/include -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/DerivedSources/i386 -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/DerivedSources -include /var/folders/Wl/Wlz-68VMENWsmvgapIH6aU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Scorius_Prefix-aoogavjhrehffqbbsoxpihvvmchi/Scorius_Prefix.pch -c /Users/berkley/project/iphone/Scorius/RightTableDataSource.m -o /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/RightTableDataSource.o0#
+lSLF07#2@68"Compile /Users/berkley/project/iphone/Scorius/RightTableDataSource.m296452732#296452732#0(0"0(0#0#60"/Users/berkley/project/iphone/Scorius/RightTableDataSource.m4300885448#1888"    cd /Users/berkley/project/iphone/Scorius    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Werror -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-generated-files.hmap -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-own-target-headers.hmap -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-all-target-headers.hmap -iquote /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-project-headers.hmap -F/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator -I/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/include -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/DerivedSources/i386 -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/DerivedSources -include /var/folders/Wl/Wlz-68VMENWsmvgapIH6aU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Scorius_Prefix-aoogavjhrehffqbbsoxpihvvmchi/Scorius_Prefix.pch -c /Users/berkley/project/iphone/Scorius/RightTableDataSource.m -o /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/RightTableDataSource.o0#
 
 CCompileC build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/Score.o /Users/berkley/project/iphone/Scorius/Score.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s296452154.612690
-e296452154.677235
+s296452732.130298
+e296452732.196594
 r1
 xCompileC
 xbuild/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/Score.o
@@ -871,11 +869,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@53"Compile /Users/berkley/project/iphone/Scorius/Score.m296452154#296452154#0(0"0(0#0#45"/Users/berkley/project/iphone/Scorius/Score.m4300885448#1858"    cd /Users/berkley/project/iphone/Scorius    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Werror -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-generated-files.hmap -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-own-target-headers.hmap -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-all-target-headers.hmap -iquote /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-project-headers.hmap -F/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator -I/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/include -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/DerivedSources/i386 -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/DerivedSources -include /var/folders/Wl/Wlz-68VMENWsmvgapIH6aU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Scorius_Prefix-aoogavjhrehffqbbsoxpihvvmchi/Scorius_Prefix.pch -c /Users/berkley/project/iphone/Scorius/Score.m -o /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/Score.o0#
+lSLF07#2@53"Compile /Users/berkley/project/iphone/Scorius/Score.m296452732#296452732#0(0"0(0#0#45"/Users/berkley/project/iphone/Scorius/Score.m4300885448#1858"    cd /Users/berkley/project/iphone/Scorius    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Werror -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-generated-files.hmap -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-own-target-headers.hmap -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-all-target-headers.hmap -iquote /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-project-headers.hmap -F/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator -I/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/include -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/DerivedSources/i386 -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/DerivedSources -include /var/folders/Wl/Wlz-68VMENWsmvgapIH6aU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Scorius_Prefix-aoogavjhrehffqbbsoxpihvvmchi/Scorius_Prefix.pch -c /Users/berkley/project/iphone/Scorius/Score.m -o /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/Score.o0#
 
 CCompileC build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/ScoriusAppDelegate.o /Users/berkley/project/iphone/Scorius/Classes/ScoriusAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s296451923.110600
-e296451923.208178
+s296452731.779405
+e296452731.884697
 r1
 xCompileC
 xbuild/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/ScoriusAppDelegate.o
@@ -884,7 +882,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@74"Compile /Users/berkley/project/iphone/Scorius/Classes/ScoriusAppDelegate.m296451923#296451923#0(0"0(0#0#66"/Users/berkley/project/iphone/Scorius/Classes/ScoriusAppDelegate.m4300885448#1892"    cd /Users/berkley/project/iphone/Scorius    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Werror -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-generated-files.hmap -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-own-target-headers.hmap -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-all-target-headers.hmap -iquote /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-project-headers.hmap -F/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator -I/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/include -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/DerivedSources/i386 -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/DerivedSources -include /var/folders/Wl/Wlz-68VMENWsmvgapIH6aU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Scorius_Prefix-aoogavjhrehffqbbsoxpihvvmchi/Scorius_Prefix.pch -c /Users/berkley/project/iphone/Scorius/Classes/ScoriusAppDelegate.m -o /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/ScoriusAppDelegate.o0#
+lSLF07#2@74"Compile /Users/berkley/project/iphone/Scorius/Classes/ScoriusAppDelegate.m296452731#296452731#0(0"0(0#0#66"/Users/berkley/project/iphone/Scorius/Classes/ScoriusAppDelegate.m4300885448#1892"    cd /Users/berkley/project/iphone/Scorius    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Werror -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-generated-files.hmap -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-own-target-headers.hmap -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-all-target-headers.hmap -iquote /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-project-headers.hmap -F/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator -I/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/include -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/DerivedSources/i386 -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/DerivedSources -include /var/folders/Wl/Wlz-68VMENWsmvgapIH6aU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Scorius_Prefix-aoogavjhrehffqbbsoxpihvvmchi/Scorius_Prefix.pch -c /Users/berkley/project/iphone/Scorius/Classes/ScoriusAppDelegate.m -o /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/ScoriusAppDelegate.o0#
 
 CCompileC build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/ScoriusConstants.o /Users/berkley/project/iphone/Scorius/ScoriusConstants.m normal i386 objective-c com.apple.compilers.gcc.4_2
 r0
@@ -893,8 +891,8 @@ CCompileC build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal
 r0
 
 CCompileC build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/TabularViewController.o /Users/berkley/project/iphone/Scorius/TabularViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s296452154.741018
-e296452154.867021
+s296452732.196705
+e296452732.336501
 r1
 xCompileC
 xbuild/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/TabularViewController.o
@@ -903,11 +901,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@69"Compile /Users/berkley/project/iphone/Scorius/TabularViewController.m296452154#296452154#0(0"0(0#0#61"/Users/berkley/project/iphone/Scorius/TabularViewController.m4300885448#1890"    cd /Users/berkley/project/iphone/Scorius    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Werror -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-generated-files.hmap -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-own-target-headers.hmap -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-all-target-headers.hmap -iquote /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-project-headers.hmap -F/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator -I/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/include -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/DerivedSources/i386 -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/DerivedSources -include /var/folders/Wl/Wlz-68VMENWsmvgapIH6aU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Scorius_Prefix-aoogavjhrehffqbbsoxpihvvmchi/Scorius_Prefix.pch -c /Users/berkley/project/iphone/Scorius/TabularViewController.m -o /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/TabularViewController.o0#
+lSLF07#2@69"Compile /Users/berkley/project/iphone/Scorius/TabularViewController.m296452732#296452732#0(0"0(0#0#61"/Users/berkley/project/iphone/Scorius/TabularViewController.m4300885448#1890"    cd /Users/berkley/project/iphone/Scorius    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Werror -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-generated-files.hmap -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-own-target-headers.hmap -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-all-target-headers.hmap -iquote /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-project-headers.hmap -F/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator -I/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/include -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/DerivedSources/i386 -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/DerivedSources -include /var/folders/Wl/Wlz-68VMENWsmvgapIH6aU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Scorius_Prefix-aoogavjhrehffqbbsoxpihvvmchi/Scorius_Prefix.pch -c /Users/berkley/project/iphone/Scorius/TabularViewController.m -o /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/TabularViewController.o0#
 
 CCompileC build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/TwoDArray.o /Users/berkley/project/iphone/Scorius/TwoDArray.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s296452154.867131
-e296452154.946569
+s296452732.336601
+e296452732.404991
 r1
 xCompileC
 xbuild/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/TwoDArray.o
@@ -916,11 +914,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@57"Compile /Users/berkley/project/iphone/Scorius/TwoDArray.m296452154#296452154#0(0"0(0#0#49"/Users/berkley/project/iphone/Scorius/TwoDArray.m4300885448#1866"    cd /Users/berkley/project/iphone/Scorius    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Werror -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-generated-files.hmap -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-own-target-headers.hmap -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-all-target-headers.hmap -iquote /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-project-headers.hmap -F/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator -I/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/include -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/DerivedSources/i386 -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/DerivedSources -include /var/folders/Wl/Wlz-68VMENWsmvgapIH6aU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Scorius_Prefix-aoogavjhrehffqbbsoxpihvvmchi/Scorius_Prefix.pch -c /Users/berkley/project/iphone/Scorius/TwoDArray.m -o /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/TwoDArray.o0#
+lSLF07#2@57"Compile /Users/berkley/project/iphone/Scorius/TwoDArray.m296452732#296452732#0(0"0(0#0#49"/Users/berkley/project/iphone/Scorius/TwoDArray.m4300885448#1866"    cd /Users/berkley/project/iphone/Scorius    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Werror -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-generated-files.hmap -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-own-target-headers.hmap -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-all-target-headers.hmap -iquote /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-project-headers.hmap -F/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator -I/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/include -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/DerivedSources/i386 -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/DerivedSources -include /var/folders/Wl/Wlz-68VMENWsmvgapIH6aU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Scorius_Prefix-aoogavjhrehffqbbsoxpihvvmchi/Scorius_Prefix.pch -c /Users/berkley/project/iphone/Scorius/TwoDArray.m -o /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/TwoDArray.o0#
 
 CCompileC build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/TwoDTableViewController.o /Users/berkley/project/iphone/Scorius/TwoDTableViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s296452154.941387
-e296452155.066218
+s296452732.366693
+e296452732.492302
 r1
 xCompileC
 xbuild/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/TwoDTableViewController.o
@@ -929,11 +927,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@71"Compile /Users/berkley/project/iphone/Scorius/TwoDTableViewController.m296452154#296452155#0(0"0(0#0#63"/Users/berkley/project/iphone/Scorius/TwoDTableViewController.m4300885448#1894"    cd /Users/berkley/project/iphone/Scorius    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Werror -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-generated-files.hmap -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-own-target-headers.hmap -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-all-target-headers.hmap -iquote /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-project-headers.hmap -F/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator -I/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/include -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/DerivedSources/i386 -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/DerivedSources -include /var/folders/Wl/Wlz-68VMENWsmvgapIH6aU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Scorius_Prefix-aoogavjhrehffqbbsoxpihvvmchi/Scorius_Prefix.pch -c /Users/berkley/project/iphone/Scorius/TwoDTableViewController.m -o /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/TwoDTableViewController.o0#
+lSLF07#2@71"Compile /Users/berkley/project/iphone/Scorius/TwoDTableViewController.m296452732#296452732#0(0"0(0#0#63"/Users/berkley/project/iphone/Scorius/TwoDTableViewController.m4300885448#1894"    cd /Users/berkley/project/iphone/Scorius    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Werror -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-generated-files.hmap -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-own-target-headers.hmap -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-all-target-headers.hmap -iquote /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-project-headers.hmap -F/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator -I/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/include -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/DerivedSources/i386 -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/DerivedSources -include /var/folders/Wl/Wlz-68VMENWsmvgapIH6aU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Scorius_Prefix-aoogavjhrehffqbbsoxpihvvmchi/Scorius_Prefix.pch -c /Users/berkley/project/iphone/Scorius/TwoDTableViewController.m -o /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/TwoDTableViewController.o0#
 
 CCompileC build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/User.o /Users/berkley/project/iphone/Scorius/User.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s296452154.586470
-e296452154.675026
+s296452732.054488
+e296452732.131906
 r1
 xCompileC
 xbuild/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/User.o
@@ -942,14 +940,14 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@52"Compile /Users/berkley/project/iphone/Scorius/User.m296452154#296452154#0(0"0(0#0#44"/Users/berkley/project/iphone/Scorius/User.m4300885448#1856"    cd /Users/berkley/project/iphone/Scorius    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Werror -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-generated-files.hmap -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-own-target-headers.hmap -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-all-target-headers.hmap -iquote /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-project-headers.hmap -F/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator -I/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/include -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/DerivedSources/i386 -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/DerivedSources -include /var/folders/Wl/Wlz-68VMENWsmvgapIH6aU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Scorius_Prefix-aoogavjhrehffqbbsoxpihvvmchi/Scorius_Prefix.pch -c /Users/berkley/project/iphone/Scorius/User.m -o /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/User.o0#
+lSLF07#2@52"Compile /Users/berkley/project/iphone/Scorius/User.m296452732#296452732#0(0"0(0#0#44"/Users/berkley/project/iphone/Scorius/User.m4300885448#1856"    cd /Users/berkley/project/iphone/Scorius    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Werror -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-generated-files.hmap -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-own-target-headers.hmap -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-all-target-headers.hmap -iquote /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-project-headers.hmap -F/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator -I/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/include -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/DerivedSources/i386 -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/DerivedSources -include /var/folders/Wl/Wlz-68VMENWsmvgapIH6aU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Scorius_Prefix-aoogavjhrehffqbbsoxpihvvmchi/Scorius_Prefix.pch -c /Users/berkley/project/iphone/Scorius/User.m -o /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/User.o0#
 
 CCompileC build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/VerticalTextView.o /Users/berkley/project/iphone/Scorius/VerticalTextView.m normal i386 objective-c com.apple.compilers.gcc.4_2
 r0
 
 CCompileC build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/VerticalTextViewController.o /Users/berkley/project/iphone/Scorius/VerticalTextViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s296452155.043980
-e296452155.115587
+s296452732.492412
+e296452732.562342
 r1
 xCompileC
 xbuild/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/VerticalTextViewController.o
@@ -958,11 +956,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@74"Compile /Users/berkley/project/iphone/Scorius/VerticalTextViewController.m296452155#296452155#0(0"0(0#0#66"/Users/berkley/project/iphone/Scorius/VerticalTextViewController.m4300885448#1900"    cd /Users/berkley/project/iphone/Scorius    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Werror -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-generated-files.hmap -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-own-target-headers.hmap -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-all-target-headers.hmap -iquote /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-project-headers.hmap -F/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator -I/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/include -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/DerivedSources/i386 -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/DerivedSources -include /var/folders/Wl/Wlz-68VMENWsmvgapIH6aU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Scorius_Prefix-aoogavjhrehffqbbsoxpihvvmchi/Scorius_Prefix.pch -c /Users/berkley/project/iphone/Scorius/VerticalTextViewController.m -o /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/VerticalTextViewController.o0#
+lSLF07#2@74"Compile /Users/berkley/project/iphone/Scorius/VerticalTextViewController.m296452732#296452732#0(0"0(0#0#66"/Users/berkley/project/iphone/Scorius/VerticalTextViewController.m4300885448#1900"    cd /Users/berkley/project/iphone/Scorius    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Werror -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-generated-files.hmap -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-own-target-headers.hmap -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-all-target-headers.hmap -iquote /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-project-headers.hmap -F/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator -I/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/include -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/DerivedSources/i386 -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/DerivedSources -include /var/folders/Wl/Wlz-68VMENWsmvgapIH6aU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Scorius_Prefix-aoogavjhrehffqbbsoxpihvvmchi/Scorius_Prefix.pch -c /Users/berkley/project/iphone/Scorius/VerticalTextViewController.m -o /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/VerticalTextViewController.o0#
 
 CCompileC build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/main.o /Users/berkley/project/iphone/Scorius/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s296451923.108746
-e296451923.193097
+s296452731.778287
+e296452731.847159
 r1
 xCompileC
 xbuild/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/main.o
@@ -971,126 +969,126 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@52"Compile /Users/berkley/project/iphone/Scorius/main.m296451923#296451923#0(0"0(0#0#44"/Users/berkley/project/iphone/Scorius/main.m4300885448#1856"    cd /Users/berkley/project/iphone/Scorius    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Werror -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-generated-files.hmap -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-own-target-headers.hmap -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-all-target-headers.hmap -iquote /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-project-headers.hmap -F/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator -I/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/include -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/DerivedSources/i386 -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/DerivedSources -include /var/folders/Wl/Wlz-68VMENWsmvgapIH6aU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Scorius_Prefix-aoogavjhrehffqbbsoxpihvvmchi/Scorius_Prefix.pch -c /Users/berkley/project/iphone/Scorius/main.m -o /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/main.o0#
+lSLF07#2@52"Compile /Users/berkley/project/iphone/Scorius/main.m296452731#296452731#0(0"0(0#0#44"/Users/berkley/project/iphone/Scorius/main.m4300885448#1856"    cd /Users/berkley/project/iphone/Scorius    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Werror -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-generated-files.hmap -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-own-target-headers.hmap -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-all-target-headers.hmap -iquote /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-project-headers.hmap -F/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator -I/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/include -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/DerivedSources/i386 -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/DerivedSources -include /var/folders/Wl/Wlz-68VMENWsmvgapIH6aU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Scorius_Prefix-aoogavjhrehffqbbsoxpihvvmchi/Scorius_Prefix.pch -c /Users/berkley/project/iphone/Scorius/main.m -o /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/main.o0#
 
 CCompileXIB /Users/berkley/project/iphone/Scorius/CoursesView.xib
-s296451921.433958
-e296451921.791232
+s296452730.205730
+e296452730.542487
 r1
 xCompileXIB
 x/Users/berkley/project/iphone/Scorius/CoursesView.xib
-lSLF07#2@26"CompileXIB CoursesView.xib296451921#296451921#0(0"0(0#0#53"/Users/berkley/project/iphone/Scorius/CoursesView.xib4300885448#481"    cd /Users/berkley/project/iphone/Scorius    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/Scorius.app/CoursesView.nib /Users/berkley/project/iphone/Scorius/CoursesView.xib0#
+lSLF07#2@26"CompileXIB CoursesView.xib296452730#296452730#0(0"0(0#0#53"/Users/berkley/project/iphone/Scorius/CoursesView.xib4300885448#481"    cd /Users/berkley/project/iphone/Scorius    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/Scorius.app/CoursesView.nib /Users/berkley/project/iphone/Scorius/CoursesView.xib0#
 
 CCompileXIB /Users/berkley/project/iphone/Scorius/GameView.xib
-s296451921.770343
-e296451922.165237
+s296452730.542578
+e296452730.909710
 r1
 xCompileXIB
 x/Users/berkley/project/iphone/Scorius/GameView.xib
-lSLF07#2@23"CompileXIB GameView.xib296451921#296451922#0(0"0(0#0#50"/Users/berkley/project/iphone/Scorius/GameView.xib4300885448#475"    cd /Users/berkley/project/iphone/Scorius    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/Scorius.app/GameView.nib /Users/berkley/project/iphone/Scorius/GameView.xib0#
+lSLF07#2@23"CompileXIB GameView.xib296452730#296452730#0(0"0(0#0#50"/Users/berkley/project/iphone/Scorius/GameView.xib4300885448#475"    cd /Users/berkley/project/iphone/Scorius    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/Scorius.app/GameView.nib /Users/berkley/project/iphone/Scorius/GameView.xib0#
 
 CCompileXIB /Users/berkley/project/iphone/Scorius/MainWindow.xib
-s296451920.935981
-e296451921.433863
+s296452729.779805
+e296452730.205636
 r1
 xCompileXIB
 x/Users/berkley/project/iphone/Scorius/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib296451920#296451921#0(0"0(0#0#52"/Users/berkley/project/iphone/Scorius/MainWindow.xib4300885448#479"    cd /Users/berkley/project/iphone/Scorius    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/Scorius.app/MainWindow.nib /Users/berkley/project/iphone/Scorius/MainWindow.xib0#
+lSLF07#2@25"CompileXIB MainWindow.xib296452729#296452730#0(0"0(0#0#52"/Users/berkley/project/iphone/Scorius/MainWindow.xib4300885448#479"    cd /Users/berkley/project/iphone/Scorius    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/Scorius.app/MainWindow.nib /Users/berkley/project/iphone/Scorius/MainWindow.xib0#
 
 CCompileXIB /Users/berkley/project/iphone/Scorius/PlayersView.xib
-s296451920.944459
-e296451921.407828
+s296452729.801948
+e296452730.172232
 r1
 xCompileXIB
 x/Users/berkley/project/iphone/Scorius/PlayersView.xib
-lSLF07#2@26"CompileXIB PlayersView.xib296451920#296451921#0(0"0(0#0#53"/Users/berkley/project/iphone/Scorius/PlayersView.xib4300885448#481"    cd /Users/berkley/project/iphone/Scorius    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/Scorius.app/PlayersView.nib /Users/berkley/project/iphone/Scorius/PlayersView.xib0#
+lSLF07#2@26"CompileXIB PlayersView.xib296452729#296452730#0(0"0(0#0#53"/Users/berkley/project/iphone/Scorius/PlayersView.xib4300885448#481"    cd /Users/berkley/project/iphone/Scorius    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/Scorius.app/PlayersView.nib /Users/berkley/project/iphone/Scorius/PlayersView.xib0#
 
 CCompileXIB /Users/berkley/project/iphone/Scorius/SecondView.xib
 r0
 
 CCompileXIB /Users/berkley/project/iphone/Scorius/StatsView.xib
-s296451921.407927
-e296451921.770237
+s296452730.172588
+e296452730.719042
 r1
 xCompileXIB
 x/Users/berkley/project/iphone/Scorius/StatsView.xib
-lSLF07#2@24"CompileXIB StatsView.xib296451921#296451921#0(0"0(0#0#51"/Users/berkley/project/iphone/Scorius/StatsView.xib4300885448#477"    cd /Users/berkley/project/iphone/Scorius    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/Scorius.app/StatsView.nib /Users/berkley/project/iphone/Scorius/StatsView.xib0#
+lSLF07#2@24"CompileXIB StatsView.xib296452730#296452730#0(0"0(0#0#51"/Users/berkley/project/iphone/Scorius/StatsView.xib4300885448#477"    cd /Users/berkley/project/iphone/Scorius    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/Scorius.app/StatsView.nib /Users/berkley/project/iphone/Scorius/StatsView.xib0#
 
 CCompileXIB /Users/berkley/project/iphone/Scorius/TabularViewer.xib
-s296451921.791331
-e296451922.173881
+s296452730.719134
+e296452731.064544
 r1
 xCompileXIB
 x/Users/berkley/project/iphone/Scorius/TabularViewer.xib
-lSLF07#2@28"CompileXIB TabularViewer.xib296451921#296451922#0(0"0(0#0#55"/Users/berkley/project/iphone/Scorius/TabularViewer.xib4300885448#485"    cd /Users/berkley/project/iphone/Scorius    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/Scorius.app/TabularViewer.nib /Users/berkley/project/iphone/Scorius/TabularViewer.xib0#
+lSLF07#2@28"CompileXIB TabularViewer.xib296452730#296452731#0(0"0(0#0#55"/Users/berkley/project/iphone/Scorius/TabularViewer.xib4300885448#485"    cd /Users/berkley/project/iphone/Scorius    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/Scorius.app/TabularViewer.nib /Users/berkley/project/iphone/Scorius/TabularViewer.xib0#
 
 CCpResource build/Debug-iphonesimulator/Scorius.app/data.sql data.sql
-s296451920.937589
-e296451921.009792
+s296452729.781422
+e296452729.806582
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/Scorius.app/data.sql
 xdata.sql
-lSLF07#2@13"Copy data.sql296451920#296451921#0(0"0(0#0#46"/Users/berkley/project/iphone/Scorius/data.sql4300885448#449"    cd /Users/berkley/project/iphone/Scorius    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/berkley/project/iphone/Scorius/data.sql /Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/Scorius.app0#
+lSLF07#2@13"Copy data.sql296452729#296452729#0(0"0(0#0#46"/Users/berkley/project/iphone/Scorius/data.sql4300885448#449"    cd /Users/berkley/project/iphone/Scorius    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/berkley/project/iphone/Scorius/data.sql /Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/Scorius.app0#
 
 CCpResource build/Debug-iphonesimulator/Scorius.app/scorius.mysql.sql scorius.mysql.sql
-s296451920.939283
-e296451921.036541
+s296452729.788813
+e296452729.806699
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/Scorius.app/scorius.mysql.sql
 xscorius.mysql.sql
-lSLF07#2@22"Copy scorius.mysql.sql296451920#296451921#0(0"0(0#0#55"/Users/berkley/project/iphone/Scorius/scorius.mysql.sql4300885448#458"    cd /Users/berkley/project/iphone/Scorius    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/berkley/project/iphone/Scorius/scorius.mysql.sql /Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/Scorius.app0#
+lSLF07#2@22"Copy scorius.mysql.sql296452729#296452729#0(0"0(0#0#55"/Users/berkley/project/iphone/Scorius/scorius.mysql.sql4300885448#458"    cd /Users/berkley/project/iphone/Scorius    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/berkley/project/iphone/Scorius/scorius.mysql.sql /Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/Scorius.app0#
 
 CCpResource build/Debug-iphonesimulator/Scorius.app/scorius.sqlite scorius.sqlite
-s296451920.936857
-e296451921.012200
+s296452729.780553
+e296452729.806454
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/Scorius.app/scorius.sqlite
 xscorius.sqlite
-lSLF07#2@19"Copy scorius.sqlite296451920#296451921#0(0"0(0#0#52"/Users/berkley/project/iphone/Scorius/scorius.sqlite4300885448#455"    cd /Users/berkley/project/iphone/Scorius    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/berkley/project/iphone/Scorius/scorius.sqlite /Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/Scorius.app0#
+lSLF07#2@19"Copy scorius.sqlite296452729#296452729#0(0"0(0#0#52"/Users/berkley/project/iphone/Scorius/scorius.sqlite4300885448#455"    cd /Users/berkley/project/iphone/Scorius    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/berkley/project/iphone/Scorius/scorius.sqlite /Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/Scorius.app0#
 
 CCpResource build/Debug-iphonesimulator/Scorius.app/scorius.sqlite.sql scorius.sqlite.sql
-s296451920.942290
-e296451921.012389
+s296452729.792145
+e296452729.806809
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/Scorius.app/scorius.sqlite.sql
 xscorius.sqlite.sql
-lSLF07#2@23"Copy scorius.sqlite.sql296451920#296451921#0(0"0(0#0#56"/Users/berkley/project/iphone/Scorius/scorius.sqlite.sql4300885448#459"    cd /Users/berkley/project/iphone/Scorius    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/berkley/project/iphone/Scorius/scorius.sqlite.sql /Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/Scorius.app0#
+lSLF07#2@23"Copy scorius.sqlite.sql296452729#296452729#0(0"0(0#0#56"/Users/berkley/project/iphone/Scorius/scorius.sqlite.sql4300885448#459"    cd /Users/berkley/project/iphone/Scorius    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/berkley/project/iphone/Scorius/scorius.sqlite.sql /Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/Scorius.app0#
 
 CGenerateDSYMFile /Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/Scorius.app.dSYM /Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/Scorius.app/Scorius
-s296452155.148855
-e296452155.187864
+s296452732.595031
+e296452732.632965
 r1
 xGenerateDSYMFile
 x/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/Scorius.app.dSYM
 x/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/Scorius.app/Scorius
-lSLF07#2@109"GenerateDSYMFile build/Debug-iphonesimulator/Scorius.app.dSYM build/Debug-iphonesimulator/Scorius.app/Scorius296452155#296452155#0(0"0(0#0#85"/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/Scorius.app/Scorius4300885448#380"    cd /Users/berkley/project/iphone/Scorius    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/Scorius.app/Scorius -o /Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/Scorius.app.dSYM0#
+lSLF07#2@109"GenerateDSYMFile build/Debug-iphonesimulator/Scorius.app.dSYM build/Debug-iphonesimulator/Scorius.app/Scorius296452732#296452732#0(0"0(0#0#85"/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/Scorius.app/Scorius4300885448#380"    cd /Users/berkley/project/iphone/Scorius    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/Scorius.app/Scorius -o /Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/Scorius.app.dSYM0#
 
 CLd /Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/Scorius.app/Scorius normal i386
-s296452155.115678
-e296452155.148742
+s296452732.562448
+e296452732.594908
 r1
 xLd
 x/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/Scorius.app/Scorius
 xnormal
 xi386
-lSLF07#2@90"Link /Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/Scorius.app/Scorius296452155#296452155#0(0"0(0#0#0"4300885448#871"    cd /Users/berkley/project/iphone/Scorius    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -L/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator -F/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator -filelist /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/Scorius.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -lsqlite3.0 -o /Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/Scorius.app/Scorius0#
+lSLF07#2@90"Link /Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/Scorius.app/Scorius296452732#296452732#0(0"0(0#0#0"4300885448#871"    cd /Users/berkley/project/iphone/Scorius    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -L/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator -F/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator -filelist /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Objects-normal/i386/Scorius.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -lsqlite3.0 -o /Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/Scorius.app/Scorius0#
 
 CProcessInfoPlistFile /Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/Scorius.app/Info.plist Scorius-Info.plist
-s296451920.929146
-e296451920.935883
+s296452729.776004
+e296452729.779714
 r1
 xProcessInfoPlistFile
 x/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/Scorius.app/Info.plist
 xScorius-Info.plist
-lSLF07#2@26"Process Scorius-Info.plist296451920#296451920#0(0"0(0#0#56"/Users/berkley/project/iphone/Scorius/Scorius-Info.plist4300885448#476"    cd /Users/berkley/project/iphone/Scorius    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Scorius-Info.plist -genpkginfo /Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/Scorius.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/Scorius.app/Info.plist0#
+lSLF07#2@26"Process Scorius-Info.plist296452729#296452729#0(0"0(0#0#56"/Users/berkley/project/iphone/Scorius/Scorius-Info.plist4300885448#476"    cd /Users/berkley/project/iphone/Scorius    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Scorius-Info.plist -genpkginfo /Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/Scorius.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/Scorius.app/Info.plist0#
 
 CProcessPCH /var/folders/Wl/Wlz-68VMENWsmvgapIH6aU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Scorius_Prefix-aoogavjhrehffqbbsoxpihvvmchi/Scorius_Prefix.pch.gch Scorius_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s296451922.174009
-e296451923.108344
+s296452731.064686
+e296452731.778108
 r1
 xProcessPCH
 x/var/folders/Wl/Wlz-68VMENWsmvgapIH6aU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Scorius_Prefix-aoogavjhrehffqbbsoxpihvvmchi/Scorius_Prefix.pch.gch
@@ -1099,13 +1097,13 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@29"Precompile Scorius_Prefix.pch296451922#296451923#0(0"0(0#0#56"/Users/berkley/project/iphone/Scorius/Scorius_Prefix.pch4300885448#1749"    cd /Users/berkley/project/iphone/Scorius    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Werror -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-generated-files.hmap -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-own-target-headers.hmap -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-all-target-headers.hmap -iquote /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-project-headers.hmap -F/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator -I/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/include -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/DerivedSources/i386 -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/DerivedSources -c /Users/berkley/project/iphone/Scorius/Scorius_Prefix.pch -o /var/folders/Wl/Wlz-68VMENWsmvgapIH6aU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Scorius_Prefix-aoogavjhrehffqbbsoxpihvvmchi/Scorius_Prefix.pch.gch0#
+lSLF07#2@29"Precompile Scorius_Prefix.pch296452731#296452731#0(0"0(0#0#56"/Users/berkley/project/iphone/Scorius/Scorius_Prefix.pch4300885448#1749"    cd /Users/berkley/project/iphone/Scorius    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Werror -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-generated-files.hmap -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-own-target-headers.hmap -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-all-target-headers.hmap -iquote /Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/Scorius-project-headers.hmap -F/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator -I/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/include -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/DerivedSources/i386 -I/Users/berkley/project/iphone/Scorius/build/Scorius.build/Debug-iphonesimulator/Scorius.build/DerivedSources -c /Users/berkley/project/iphone/Scorius/Scorius_Prefix.pch -o /var/folders/Wl/Wlz-68VMENWsmvgapIH6aU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Scorius_Prefix-aoogavjhrehffqbbsoxpihvvmchi/Scorius_Prefix.pch.gch0#
 
 CTouch /Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/Scorius.app
-s296452155.187951
-e296452155.190896
+s296452732.633059
+e296452732.636906
 r1
 xTouch
 x/Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/Scorius.app
-lSLF07#2@83"Touch /Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/Scorius.app296452155#296452155#0(0"0(0#0#0"4300885448#276"    cd /Users/berkley/project/iphone/Scorius    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/Scorius.app0#
+lSLF07#2@83"Touch /Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/Scorius.app296452732#296452732#0(0"0(0#0#0"4300885448#276"    cd /Users/berkley/project/iphone/Scorius    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/berkley/project/iphone/Scorius/build/Debug-iphonesimulator/Scorius.app0#
 
